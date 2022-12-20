@@ -27,6 +27,7 @@
                     <img src="assets/img/header/search-form/lens.svg" alt="">
                 </button>
             </form>
+            <div class="header__search-form_mobile"></div>
         </div>
         <div class="header__user-block">
             <a href="#" class="header__user-block__camera">

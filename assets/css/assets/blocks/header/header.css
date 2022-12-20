@@ -1,13 +1,18 @@
-/* Font-colors */
-/* Search-form */
 /* Alerts and Notifications */
 /* Borders */
 /* Search form */
+/* Font-colors */
+/* Search-form */
 header .container {
   height: 8.4rem;
   padding: 0 7rem 0 3.2rem;
   display: flex;
   align-items: center;
+}
+@media (max-width: 768px) {
+  header .container {
+    padding: 0 1.6rem;
+  }
 }
 header .container .header__burger-menu > div {
   cursor: pointer;
@@ -17,15 +22,36 @@ header .container .header__burger-menu > div {
   border-radius: 0.15rem;
   background-color: #19202C;
 }
+@media (max-width: 576px) {
+  header .container .header__burger-menu > div {
+    display: none;
+  }
+}
 header .container .header__logo {
   line-height: 0;
   margin: 0 0 0 2.8rem;
+}
+@media (max-width: 576px) {
+  header .container .header__logo {
+    margin: 0 2.5rem 0 0;
+  }
 }
 header .container .header__search-form {
   height: 4.4rem;
   width: 83rem;
   margin: 0 4rem 0 6rem;
   border-radius: 2.2rem;
+}
+@media (max-width: 768px) {
+  header .container .header__search-form {
+    margin: 0 4rem;
+  }
+}
+@media (max-width: 576px) {
+  header .container .header__search-form {
+    width: auto;
+    margin: 0 2.5rem 0 auto;
+  }
 }
 header .container .header__search-form form {
   height: inherit;
@@ -54,12 +80,47 @@ header .container .header__search-form form button {
   border-radius: 0 2.2rem 2.2rem 0;
   padding: 0;
 }
+@media (max-width: 576px) {
+  header .container .header__search-form form {
+    display: none;
+    margin-left: auto;
+  }
+}
+header .container .header__search-form .header__search-form_mobile {
+  display: none;
+  background-image: url("../img/header/search-form/lens.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 576px) {
+  header .container .header__search-form .header__search-form_mobile {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+  }
+}
 header .container .header__user-block {
   width: 26rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-left: auto;
+}
+@media (max-width: 768px) {
+  header .container .header__user-block {
+    width: auto;
+  }
+  header .container .header__user-block a:not(:last-child) {
+    display: none;
+  }
+  header .container .header__user-block .header__user-block__user-profile {
+    margin-left: auto;
+  }
+}
+@media (max-width: 576px) {
+  header .container .header__user-block {
+    margin-left: 0;
+  }
 }
 header .container .header__user-block a {
   margin-left: 2rem;
