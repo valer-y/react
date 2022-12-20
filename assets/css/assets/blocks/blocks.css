@@ -1,0 +1,100 @@
+/* Font-colors */
+/* Search-form */
+/* Alerts and Notifications */
+/* Borders */
+/* Search form */
+header .container {
+  height: 8.4rem;
+  padding: 0 7rem 0 3.2rem;
+  display: flex;
+  align-items: center;
+}
+header .container .header__burger-menu > div {
+  cursor: pointer;
+  width: 2rem;
+  height: 0.3rem;
+  margin: 0.4rem 0;
+  border-radius: 0.15rem;
+  background-color: #19202C;
+}
+header .container .header__logo {
+  line-height: 0;
+  margin: 0 0 0 2.8rem;
+}
+header .container .header__search-form {
+  height: 4.4rem;
+  width: 83rem;
+  margin: 0 4rem 0 6rem;
+  border-radius: 2.2rem;
+}
+header .container .header__search-form form {
+  height: inherit;
+  display: flex;
+  background-color: #EBEBEB;
+  border-radius: 2.2rem;
+}
+header .container .header__search-form form input {
+  background-color: transparent;
+  width: calc(100% - 5rem);
+  height: inherit;
+  border: none;
+  border-radius: 2.2rem 0 0 2.2rem;
+  padding-left: 2.3rem;
+}
+header .container .header__search-form form input::placeholder {
+  color: #30384C;
+  opacity: 0.4;
+}
+header .container .header__search-form form button {
+  cursor: pointer;
+  min-width: 5rem;
+  height: inherit;
+  background-color: transparent;
+  border: none;
+  border-radius: 0 2.2rem 2.2rem 0;
+  padding: 0;
+}
+header .container .header__user-block {
+  width: 26rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+}
+header .container .header__user-block a {
+  margin-left: 2rem;
+}
+header .container .header__user-block a:first-child {
+  margin: 0;
+}
+header .container .header__user-block .header__user-block__notifications {
+  position: relative;
+}
+header .container .header__user-block .header__user-block__notifications .notification__counter {
+  display: block;
+  width: 1.8rem;
+  height: 1.8rem;
+  z-index: 10;
+  position: absolute;
+  border-radius: 50%;
+  top: -0.5rem;
+  right: -0.5rem;
+  border: 1px solid #FFFFFF;
+  background-color: #e52424;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.25rem;
+  font-weight: 800;
+}
+header .container .header__user-block .header__user-block__user-profile {
+  display: inline-block;
+  width: 4rem;
+  height: auto;
+}
+header .container .header__user-block .header__user-block__user-profile img {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=blocks.css.map */

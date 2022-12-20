@@ -1,0 +1,100 @@
+@import "../../typography/font-colors";
+@import "../../colors/colors";
+
+header {
+  .container {
+    height: 8.4rem;
+    padding: 0 7rem 0 3.2rem;
+    display: flex;
+    align-items: center;
+    .header__burger-menu > div {
+      cursor: pointer;
+      width: 2rem;
+      height: 0.3rem;
+      margin: 0.4rem 0;
+      border-radius: 0.15rem;
+      background-color: #19202C;
+    }
+    .header__logo {
+      line-height: 0;
+      margin: 0 0 0 2.8rem;
+    }
+    .header__search-form {
+      height: 4.4rem;
+      width: 83rem;
+      margin: 0 4rem 0 6rem;
+      border-radius: 2.2rem;
+      form {
+        height: inherit;
+        display: flex;
+        background-color: $color_search-form_bg;
+        border-radius: 2.2rem;
+        input {
+          background-color: transparent;
+          width: calc(100% - 5rem);
+          height: inherit;
+          border: none;
+          border-radius: 2.2rem 0 0 2.2rem;
+          padding-left: 2.3rem;
+          &::placeholder {
+            color: $font-color__search-placeholder;
+            opacity: 0.4;
+          }
+        }
+        button {
+          cursor: pointer;
+          min-width: 5rem;
+          height: inherit;
+          background-color: transparent;
+          border: none;
+          border-radius: 0 2.2rem 2.2rem 0;
+          padding: 0;
+        };
+      }
+
+    }
+    .header__user-block {
+      width: 26rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: auto;
+      a {
+        margin-left: 2rem;
+        &:first-child {
+          margin: 0;
+        }
+      }
+      .header__user-block__notifications {
+        position: relative;
+        .notification__counter {
+          display: block;
+          width: 1.8rem;
+          height: 1.8rem;
+          z-index: 10;
+          position: absolute;
+          border-radius: 50%;
+          top: -0.5rem;
+          right: -0.5rem;
+          border: 1px solid $color_border-light;
+          background-color: $color_notification_active;
+          font-size: 1.2rem;
+          color: $font-color_in-notification;
+          text-align: center;
+          padding: 0.25rem;
+          font-weight: 800;
+        }
+      }
+      .header__user-block__user-profile {
+        display: inline-block;
+        width: 4rem;
+        height: auto;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+    }
+  }
+}
