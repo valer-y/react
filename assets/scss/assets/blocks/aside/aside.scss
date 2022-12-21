@@ -2,7 +2,7 @@
 
 .container {
   aside {
-    width: 20rem;
+    min-width: 25.5rem;
     height: 100%;
     @media (max-width: $xs) {
       width: 100%;
