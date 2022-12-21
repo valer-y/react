@@ -226,12 +226,16 @@
                         Dollie Blair
                     </h2>
                 </a>
-                <div class="subscribed-author__content__navigation clearfix">
+                <div class="subscribed-author__content__navigation">
                     <div class="move-left"></div>
                     <div class="move-right"></div>
                 </div>
             </div>
-            <div class="subscribed-author__content"> </div>
+            <div class="subscribed-author__content">
+                <div class="video_small">
+
+                </div>
+            </div>
         </section>
     </main>
 </section>

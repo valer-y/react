@@ -5,6 +5,7 @@
 .subscribed-author {
   height: 280px;
   background-color: rgba(0, 0, 0, 0.07);
+  padding: 2.9rem 0 0 0;
   .subscribed-author__info {
     display: flex;
     align-items: center;
@@ -42,10 +43,9 @@
     }
   }
 
-}
+  .subscribed-author__content {
+    padding: 3rem 0 0 0;
+    .video_small {}
+  }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
 }

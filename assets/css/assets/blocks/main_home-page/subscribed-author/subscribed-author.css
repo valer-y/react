@@ -41,6 +41,7 @@ input::placeholder {
 .subscribed-author {
   height: 280px;
   background-color: rgba(0, 0, 0, 0.07);
+  padding: 2.9rem 0 0 0;
 }
 .subscribed-author .subscribed-author__info {
   display: flex;
@@ -74,11 +75,8 @@ input::placeholder {
 .subscribed-author .subscribed-author__info .subscribed-author__content__navigation .move-right {
   transform: rotate(180deg);
 }
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+.subscribed-author .subscribed-author__content {
+  padding: 3rem 0 0 0;
 }
 
 /*# sourceMappingURL=subscribed-author.css.map */
