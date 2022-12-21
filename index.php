@@ -232,7 +232,7 @@
                         Dollie Blair
                     </h2>
                 </a>
-                <div class="subscribed-author__content__navigation">
+                <div class="video-content__navigation">
                     <div class="move-left"></div>
                     <div class="move-right"></div>
                 </div>
@@ -345,7 +345,13 @@
 <!-- Recommended content -->
 
         <section class="recommended">
-            <h2>Recomended</h2>
+            <div class="recommended__title">
+                <h2>Recomended</h2>
+                <div class="video-content__navigation">
+                    <div class="move-left"></div>
+                    <div class="move-right"></div>
+                </div>
+            </div>
             <div class="recommended__content">
 
                 <div class="content__tab">
