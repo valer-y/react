@@ -49,6 +49,103 @@
     </div>
 </header>
 
+<section class="container">
+    <aside>
+        <nav class="nav-menu">
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/home.svg" alt="home" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    Home
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/fire.svg" alt="trending" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    Trending
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/folders.svg" alt="subscriptions" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    Subscriptions
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/documents.svg" alt="library" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    Library
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/scroll.svg" alt="history" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    History
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/clocks.svg" alt="watch later" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                   Watch later
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/star.svg" alt="favorites" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    Favorites
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/heart.svg" alt="liked videos" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    Liked videos
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/music.svg" alt="music" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    Music
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/games.svg" alt="nav home" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    Games
+                </div>
+            </a>
+            <a href="#" class="nav-menu__link">
+                <div class="nav-menu__link__icon">
+                    <img src="assets/img/nav/chevron-down.svg" alt="nav home" class="nav-menu__link__img">
+                </div>
+                <div class="nav-menu__link__text">
+                    Show more
+                </div>
+            </a>
+
+        </nav>
+    </aside>
+    <main>
+    </main>
+</section>
 </body>
 </html>
 
