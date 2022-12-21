@@ -1,0 +1,51 @@
+@import "../../../global/breakpoints/breakpoints";
+@import "../../../typography/font-colors";
+@import "../../../typography/fonts";
+
+.subscribed-author {
+  height: 280px;
+  background-color: rgba(0, 0, 0, 0.07);
+  padding: 2.9rem 0 0 0;
+  .subscribed-author__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .subscribed-author__link {
+      align-items: center;
+      display: flex;
+      .subscribed-author__icon {
+        img {
+          width: 5rem;
+          height: auto;
+          margin-right: 2rem;
+        }
+      }
+    }
+
+    .subscribed-author__content__navigation {
+      display: flex;
+      padding: 0 14rem 0 0;
+      align-self: flex-end;
+      div {
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 50%;
+        background-color: #c2c2c2;
+        margin-right: 1rem;
+        background-image: url("../img/nav/Left Arrow.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .move-right {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .subscribed-author__content {
+    padding: 3rem 0 0 0;
+    .video_small {}
+  }
+
+}

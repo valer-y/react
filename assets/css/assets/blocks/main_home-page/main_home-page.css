@@ -1,0 +1,82 @@
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Importing font: Muli - 300 / 400 / 700 / 800
+   Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
+*/
+@import url("https://use.typekit.net/jrb6nlz.css");
+/* Font-colors */
+/* Search-form */
+/* Links */
+* {
+  font-family: "Muli", sans-serif;
+  color: #C2C2C2;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+  color: #19202C;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1, h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+p, a,
+input::placeholder {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.subscribed-author {
+  height: 280px;
+  background-color: rgba(0, 0, 0, 0.07);
+  padding: 2.9rem 0 0 0;
+}
+.subscribed-author .subscribed-author__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__link {
+  align-items: center;
+  display: flex;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__link .subscribed-author__icon img {
+  width: 5rem;
+  height: auto;
+  margin-right: 2rem;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__content__navigation {
+  display: flex;
+  padding: 0 14rem 0 0;
+  align-self: flex-end;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__content__navigation div {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  background-color: #c2c2c2;
+  margin-right: 1rem;
+  background-image: url("../img/nav/Left Arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__content__navigation .move-right {
+  transform: rotate(180deg);
+}
+.subscribed-author .subscribed-author__content {
+  padding: 3rem 0 0 0;
+}
+
+/*# sourceMappingURL=main_home-page.css.map */
