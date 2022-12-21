@@ -1,0 +1,14 @@
+@import "../../../global/breakpoints/breakpoints";
+@import "../../../typography/font-colors";
+@import "../../../typography/fonts";
+
+.recommended {
+  padding: 5rem 0 0 0;
+  .recommended__content {
+    padding: 3rem 0 0 0;
+    overflow: hidden;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4rem;
+  }
+}

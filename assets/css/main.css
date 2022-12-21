@@ -15,6 +15,7 @@ Use 62.5% font
 @import url("https://use.typekit.net/jrb6nlz.css");
 @import url("https://use.typekit.net/jrb6nlz.css");
 @import url("https://use.typekit.net/jrb6nlz.css");
+@import url("https://use.typekit.net/jrb6nlz.css");
 html {
   font-size: 62.5%;
 }
@@ -297,6 +298,62 @@ input::placeholder {
   margin: 0 auto;
 }
 
+.content__tab {
+  display: inline-block;
+}
+.content__tab .video_medium {
+  width: 54rem;
+  height: 25rem;
+}
+.content__tab .video_small {
+  width: 25rem;
+  height: 15rem;
+}
+.content__tab .video-content {
+  border-radius: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.07);
+  position: relative;
+}
+.content__tab .video-content .video-time {
+  width: 4.7rem;
+  height: 2.4rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+  font-size: 1.4rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+.content__tab h4 {
+  margin-top: 1rem;
+}
+.content__tab .content-info {
+  display: flex;
+  justify-content: space-between;
+}
+.content__tab .content-info a {
+  padding: 0.4rem 0 0 0;
+  font-size: 1.3rem;
+}
+.content__tab .content-info .content_data {
+  display: flex;
+  padding: 0.4rem 0 0 0;
+}
+.content__tab .content-info .content_data p {
+  font-size: 1.3rem;
+  margin: 0;
+}
+.content__tab .content-info .content_data p:first-child::after {
+  content: "･";
+  margin: 0 5px;
+}
+
 /* Alerts and Notifications */
 /* Borders */
 /* Search form */
@@ -560,51 +617,55 @@ input::placeholder {
   grid-template-columns: repeat(6, 1fr);
   column-gap: 4rem;
 }
-.subscribed-author .subscribed-author__content .content__tab .video_small {
-  width: 25rem;
-  height: 15rem;
-  border-radius: 1.4rem;
-  background-color: rgba(0, 0, 0, 0.07);
-  position: relative;
+
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Importing font: Muli - 300 / 400 / 700 / 800
+   Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
+*/
+/* Font-colors */
+/* Search-form */
+/* Links */
+* {
+  font-family: "Muli", sans-serif;
+  color: #C2C2C2;
+  font-weight: 400;
 }
-.subscribed-author .subscribed-author__content .content__tab .video_small .video-time {
-  width: 4.7rem;
-  height: 2.4rem;
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 1.2rem;
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  color: white;
-  font-size: 1.4rem;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1.5;
-}
-.subscribed-author .subscribed-author__content .content__tab h4 {
-  margin-top: 1rem;
-}
-.subscribed-author .subscribed-author__content .content__tab .content-info {
-  display: flex;
-  justify-content: space-between;
-}
-.subscribed-author .subscribed-author__content .content__tab .content-info a {
-  padding: 0.4rem 0 0 0;
-  font-size: 1.3rem;
-}
-.subscribed-author .subscribed-author__content .content__tab .content-info .content_data {
-  display: flex;
-  padding: 0.4rem 0 0 0;
-}
-.subscribed-author .subscribed-author__content .content__tab .content-info .content_data p {
-  font-size: 1.3rem;
+
+h1, h2, h3, h4 {
+  color: #19202C;
+  font-weight: 700;
   margin: 0;
 }
-.subscribed-author .subscribed-author__content .content__tab .content-info .content_data p:first-child::after {
-  content: "･";
-  margin: 0 5px;
+
+h1, h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+p, a,
+input::placeholder {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.recommended {
+  padding: 5rem 0 0 0;
+}
+.recommended .recommended__content {
+  padding: 3rem 0 0 0;
+  overflow: hidden;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
 }
 
 main {

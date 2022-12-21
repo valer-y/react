@@ -1,0 +1,52 @@
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Importing font: Muli - 300 / 400 / 700 / 800
+   Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
+*/
+@import url("https://use.typekit.net/jrb6nlz.css");
+/* Font-colors */
+/* Search-form */
+/* Links */
+* {
+  font-family: "Muli", sans-serif;
+  color: #C2C2C2;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+  color: #19202C;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1, h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+p, a,
+input::placeholder {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.recommended {
+  padding: 5rem 0 0 0;
+}
+.recommended .recommended__content {
+  padding: 3rem 0 0 0;
+  overflow: hidden;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+}
+
+/*# sourceMappingURL=recommended-content.css.map */
