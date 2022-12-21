@@ -1,0 +1,37 @@
+@import "../../global/breakpoints/breakpoints";
+@import "../../typography/font-colors";
+@import "../../typography/fonts";
+
+.subscriptions {
+  @media (max-width: $xs) {
+    display: none;
+  }
+
+  h3{
+    text-align: center;
+    }
+
+  .subscriptions__list {
+    padding: 0 0 6rem 3.3rem;
+    .subscriptions__link {
+      display: flex;
+      align-items: center;
+      line-height: 1;
+      height: 4.8rem;
+      width: 100%;
+      .subscriptions__link__icon {
+        img {
+          width: 2.6rem;
+          height: auto;
+          margin-right: 1rem;
+        }
+      }
+      .subscriptions__link__text {
+        color: $font-color__navigation-link
+      }
+
+
+    }
+  }
+
+}
