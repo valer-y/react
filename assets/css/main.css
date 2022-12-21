@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize
  */
 /*
@@ -10,6 +11,7 @@ Use 62.5% font
 /* 62.5%-font of 16px browser font size is 10px
    Linked through the main.scss directly
 */
+@import url("https://use.typekit.net/jrb6nlz.css");
 @import url("https://use.typekit.net/jrb6nlz.css");
 @import url("https://use.typekit.net/jrb6nlz.css");
 @import url("https://use.typekit.net/jrb6nlz.css");
@@ -268,6 +270,7 @@ summary {
 h1, h2, h3, h4 {
   color: #19202C;
   font-weight: 700;
+  margin: 0;
 }
 
 h1, h2 {
@@ -290,7 +293,7 @@ input::placeholder {
 
 /* Global styles */
 .container {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -298,7 +301,7 @@ input::placeholder {
 /* Borders */
 /* Search form */
 .container aside {
-  width: 20rem;
+  min-width: 25.5rem;
   height: 100%;
 }
 @media (max-width: 320px) {
@@ -309,6 +312,10 @@ input::placeholder {
     position: absolute;
     bottom: 0;
   }
+}
+
+.content-section {
+  display: flex;
 }
 
 /* Alerts and Notifications */
@@ -490,6 +497,139 @@ header .container .header__user-block .header__user-block__user-profile img {
 h1, h2, h3, h4 {
   color: #19202C;
   font-weight: 700;
+  margin: 0;
+}
+
+h1, h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+p, a,
+input::placeholder {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.subscribed-author {
+  padding: 2.9rem 0 0 0;
+}
+.subscribed-author .subscribed-author__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__link {
+  align-items: center;
+  display: flex;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__link .subscribed-author__icon img {
+  width: 5rem;
+  height: auto;
+  margin-right: 2rem;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__content__navigation {
+  display: flex;
+  padding: 0 14rem 0 0;
+  align-self: flex-end;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__content__navigation div {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  background-color: #c2c2c2;
+  margin-right: 1rem;
+  background-image: url("../img/nav/Left Arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.subscribed-author .subscribed-author__info .subscribed-author__content__navigation .move-right {
+  transform: rotate(180deg);
+}
+.subscribed-author .subscribed-author__content {
+  padding: 3rem 0 0 0;
+  overflow: hidden;
+  display: inline-grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 4rem;
+}
+.subscribed-author .subscribed-author__content .content__tab .video_small {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.07);
+  position: relative;
+}
+.subscribed-author .subscribed-author__content .content__tab .video_small .video-time {
+  width: 4.7rem;
+  height: 2.4rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+  font-size: 1.4rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+.subscribed-author .subscribed-author__content .content__tab h4 {
+  margin-top: 1rem;
+}
+.subscribed-author .subscribed-author__content .content__tab .content-info {
+  display: flex;
+  justify-content: space-between;
+}
+.subscribed-author .subscribed-author__content .content__tab .content-info a {
+  padding: 0.4rem 0 0 0;
+  font-size: 1.3rem;
+}
+.subscribed-author .subscribed-author__content .content__tab .content-info .content_data {
+  display: flex;
+  padding: 0.4rem 0 0 0;
+}
+.subscribed-author .subscribed-author__content .content__tab .content-info .content_data p {
+  font-size: 1.3rem;
+  margin: 0;
+}
+.subscribed-author .subscribed-author__content .content__tab .content-info .content_data p:first-child::after {
+  content: "･";
+  margin: 0 5px;
+}
+
+main {
+  overflow: auto;
+}
+
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Importing font: Muli - 300 / 400 / 700 / 800
+   Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
+*/
+/* Font-colors */
+/* Search-form */
+/* Links */
+* {
+  font-family: "Muli", sans-serif;
+  color: #C2C2C2;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+  color: #19202C;
+  font-weight: 700;
+  margin: 0;
 }
 
 h1, h2 {
@@ -601,6 +741,7 @@ input::placeholder {
 h1, h2, h3, h4 {
   color: #19202C;
   font-weight: 700;
+  margin: 0;
 }
 
 h1, h2 {
