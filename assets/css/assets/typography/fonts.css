@@ -4,6 +4,7 @@
 @import url("https://use.typekit.net/jrb6nlz.css");
 /* Font-colors */
 /* Search-form */
+/* Links */
 * {
   font-family: "Muli", sans-serif;
   color: #C2C2C2;
@@ -30,6 +31,7 @@ h4 {
 p, a,
 input::placeholder {
   font-size: 1.6rem;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=fonts.css.map */
