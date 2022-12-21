@@ -38,7 +38,7 @@ input::placeholder {
 }
 
 .nav-menu {
-  padding: 0 0 5rem 3.3rem;
+  padding: 0 0 6rem 3.3rem;
 }
 @media (max-width: 320px) {
   .nav-menu {

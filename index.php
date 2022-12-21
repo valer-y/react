@@ -51,6 +51,9 @@
 
 <section class="container">
     <aside>
+<!--
+  **  Navigation menu **
+-->
         <nav class="nav-menu">
             <a href="#" class="nav-menu__link">
                 <div class="nav-menu__link__icon">
@@ -142,6 +145,63 @@
             </a>
 
         </nav>
+
+<!--
+  **  Subscriptions **
+-->
+        <section class="subscriptions container">
+            <h3>Subscriptions</h3>
+            <div class="subscriptions__list">
+                <a href="#" class="subscriptions__link">
+                    <div class="subscriptions__link__icon">
+                        <img src="assets/img/subscriptions/singleton.png" alt="home" class="subscriptions__link__img">
+                    </div>
+                    <div class="subscriptions__link__text">
+                        Gussie Singleton
+                    </div>
+                </a>
+                <a href="#" class="subscriptions__link">
+                    <div class="subscriptions__link__icon">
+                        <img src="assets/img/subscriptions/francis.png" alt="home" class="subscriptions__link__img">
+                    </div>
+                    <div class="subscriptions__link__text">
+                        Nora Francis
+                    </div>
+                </a>
+                <a href="#" class="subscriptions__link">
+                    <div class="subscriptions__link__icon">
+                        <img src="assets/img/subscriptions/briggs.png" alt="home" class="subscriptions__link__img">
+                    </div>
+                    <div class="subscriptions__link__text">
+                        Belle Brigs
+                    </div>
+                </a>
+                <a href="#" class="subscriptions__link">
+                    <div class="subscriptions__link__icon">
+                        <img src="assets/img/subscriptions/cortez.png" alt="home" class="subscriptions__link__img">
+                    </div>
+                    <div class="subscriptions__link__text">
+                        Eunice Cortez
+                    </div>
+                </a>
+                <a href="#" class="subscriptions__link">
+                    <div class="subscriptions__link__icon">
+                        <img src="assets/img/subscriptions/hanson.png" alt="home" class="subscriptions__link__img">
+                    </div>
+                    <div class="subscriptions__link__text">
+                        Emma Hanson
+                    </div>
+                </a>
+                <a href="#" class="subscriptions__link">
+                    <div class="subscriptions__link__icon">
+                        <img src="assets/img/subscriptions/leah.png" alt="home" class="subscriptions__link__img">
+                    </div>
+                    <div class="subscriptions__link__text">
+                        Leah Berry
+                    </div>
+                </a>
+            </div>
+        </section>
     </aside>
     <main>
     </main>
