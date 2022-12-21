@@ -10,6 +10,10 @@
 </head>
 <body>
 
+<!------------------
+### Header ###
+------------------->
+
 <header>
     <div class="container">
         <a class="header__burger-menu">
@@ -50,6 +54,9 @@
 </header>
 
 <section class="container">
+<!------------------
+### Navigation ###
+------------------->
     <aside>
 <!--
   **  Navigation menu **
@@ -129,7 +136,7 @@
             </a>
             <a href="#" class="nav-menu__link">
                 <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/games.svg" alt="nav home" class="nav-menu__link__img">
+                    <img src="assets/img/nav/games.svg" alt="games" class="nav-menu__link__img">
                 </div>
                 <div class="nav-menu__link__text">
                     Games
@@ -137,7 +144,7 @@
             </a>
             <a href="#" class="nav-menu__link">
                 <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/chevron-down.svg" alt="nav home" class="nav-menu__link__img">
+                    <img src="assets/img/nav/chevron-down.svg" alt="show more" class="nav-menu__link__img">
                 </div>
                 <div class="nav-menu__link__text">
                     Show more
@@ -146,15 +153,14 @@
 
         </nav>
 
-<!--
-  **  Subscriptions **
--->
+<!-- **  Subscriptions ** -->
+
         <section class="subscriptions container">
             <h3>Subscriptions</h3>
             <div class="subscriptions__list">
                 <a href="#" class="subscriptions__link">
                     <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/singleton.png" alt="home" class="subscriptions__link__img">
+                        <img src="assets/img/subscriptions/singleton.png" alt="singleton" class="subscriptions__link__img">
                     </div>
                     <div class="subscriptions__link__text">
                         Gussie Singleton
@@ -162,7 +168,7 @@
                 </a>
                 <a href="#" class="subscriptions__link">
                     <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/francis.png" alt="home" class="subscriptions__link__img">
+                        <img src="assets/img/subscriptions/francis.png" alt="francis" class="subscriptions__link__img">
                     </div>
                     <div class="subscriptions__link__text">
                         Nora Francis
@@ -170,7 +176,7 @@
                 </a>
                 <a href="#" class="subscriptions__link">
                     <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/briggs.png" alt="home" class="subscriptions__link__img">
+                        <img src="assets/img/subscriptions/briggs.png" alt="brigs" class="subscriptions__link__img">
                     </div>
                     <div class="subscriptions__link__text">
                         Belle Brigs
@@ -178,7 +184,7 @@
                 </a>
                 <a href="#" class="subscriptions__link">
                     <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/cortez.png" alt="home" class="subscriptions__link__img">
+                        <img src="assets/img/subscriptions/cortez.png" alt="cortez" class="subscriptions__link__img">
                     </div>
                     <div class="subscriptions__link__text">
                         Eunice Cortez
@@ -186,7 +192,7 @@
                 </a>
                 <a href="#" class="subscriptions__link">
                     <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/hanson.png" alt="home" class="subscriptions__link__img">
+                        <img src="assets/img/subscriptions/hanson.png" alt="hanson" class="subscriptions__link__img">
                     </div>
                     <div class="subscriptions__link__text">
                         Emma Hanson
@@ -194,7 +200,7 @@
                 </a>
                 <a href="#" class="subscriptions__link">
                     <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/leah.png" alt="home" class="subscriptions__link__img">
+                        <img src="assets/img/subscriptions/leah.png" alt="berry" class="subscriptions__link__img">
                     </div>
                     <div class="subscriptions__link__text">
                         Leah Berry
@@ -202,7 +208,21 @@
                 </a>
             </div>
         </section>
+
+<!-- **  Settings ** -->
+
+        <div class="settings container">
+            <div class="settings__icon">
+                <img src="assets/img/settings/settings.svg" alt="settings">
+            </div>
+            Settings
+        </div>
+
     </aside>
+
+<!------------------
+### Main section ###
+------------------->
     <main>
     </main>
 </section>
