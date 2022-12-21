@@ -4,6 +4,10 @@
 
 .recommended {
   padding: 5rem 0 0 0;
+  .recommended__title {
+    display: flex;
+    justify-content: space-between;
+  }
   .recommended__content {
     padding: 3rem 0 0 0;
     overflow: hidden;
