@@ -53,7 +53,7 @@
     </div>
 </header>
 
-<section class="container">
+<section class="content-section container">
 <!------------------
 ### Navigation ###
 ------------------->
@@ -160,14 +160,6 @@
             <div class="subscriptions__list">
                 <a href="#" class="subscriptions__link">
                     <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/singleton.png" alt="singleton" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Gussie Singleton
-                    </div>
-                </a>
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
                         <img src="assets/img/subscriptions/francis.png" alt="francis" class="subscriptions__link__img">
                     </div>
                     <div class="subscriptions__link__text">
@@ -223,7 +215,24 @@
 <!------------------
 ### Main section ###
 ------------------->
-    <main>
+    <main class="container">
+        <section class="subscribed-author container">
+            <div class="subscribed-author__info">
+                <a href="#" class="subscribed-author__link">
+                    <div class="subscribed-author__icon">
+                        <img src="assets/img/subscriptions/francis.png" alt="francis" class="subscriptions__link__img">
+                    </div>
+                    <h2>
+                        Dollie Blair
+                    </h2>
+                </a>
+                <div class="subscribed-author__content__navigation clearfix">
+                    <div class="move-left"></div>
+                    <div class="move-right"></div>
+                </div>
+            </div>
+            <div class="subscribed-author__content"> </div>
+        </section>
     </main>
 </section>
 </body>
