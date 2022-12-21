@@ -212,11 +212,17 @@
 
     </aside>
 
+
 <!------------------
 ### Main section ###
 ------------------->
+
     <main class="container">
+
+<!-- Subscribed author  -->
+
         <section class="subscribed-author container">
+
             <div class="subscribed-author__info">
                 <a href="#" class="subscribed-author__link">
                     <div class="subscribed-author__icon">
@@ -232,12 +238,12 @@
                 </div>
             </div>
 
-<!-- Subscribed author video section -->
+    <!-- Subscribed author video section -->
 
             <section class="subscribed-author__content">
 
                 <div class="content__tab">
-                    <div class="video_small">
+                    <div class="video_small video-content">
                         <div class="video-time">
                             4:15
                         </div>
@@ -253,7 +259,7 @@
                 </div>
 
                 <div class="content__tab">
-                    <div class="video_small">
+                    <div class="video_small video-content">
                         <div class="video-time">
                             4:15
                         </div>
@@ -269,7 +275,7 @@
                 </div>
 
                 <div class="content__tab">
-                    <div class="video_small">
+                    <div class="video_small video-content">
                         <div class="video-time">
                             4:15
                         </div>
@@ -285,7 +291,7 @@
                 </div>
 
                 <div class="content__tab">
-                    <div class="video_small">
+                    <div class="video_small video-content">
                         <div class="video-time">
                             4:15
                         </div>
@@ -301,7 +307,7 @@
                 </div>
 
                 <div class="content__tab">
-                    <div class="video_small">
+                    <div class="video_small video-content">
                         <div class="video-time">
                             4:15
                         </div>
@@ -317,7 +323,7 @@
                 </div>
 
                 <div class="content__tab">
-                    <div class="video_small">
+                    <div class="video_small video-content">
                         <div class="video-time">
                             4:15
                         </div>
@@ -331,10 +337,70 @@
                         <a datatype="content-author-name">Dollie Blair</a>
                     </div>
                 </div>
-
 
             </section>
+
         </section>
+
+<!-- Recommended content -->
+
+        <section class="recommended">
+            <h2>Recomended</h2>
+            <div class="recommended__content">
+
+                <div class="content__tab">
+                    <div class="video_medium video-content ">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <a datatype="content-author-name">Dollie Blair</a>
+                    </div>
+                </div>
+
+                <div class="content__tab">
+                    <div class="video_medium video-content ">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <a datatype="content-author-name">Dollie Blair</a>
+                    </div>
+                </div>
+
+                <div class="content__tab">
+                    <div class="video_medium video-content ">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <a datatype="content-author-name">Dollie Blair</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
     </main>
 </section>
 </body>
