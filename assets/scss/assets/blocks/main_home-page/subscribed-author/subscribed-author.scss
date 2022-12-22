@@ -4,6 +4,13 @@
 
 .subscribed-author {
   padding: 2.9rem 0 0 0;
+  .channel__info {
+
+    @media (max-width: $xs) {
+      display: none;
+    }
+
+  }
 
   .subscribed-author__content {
     padding: 3rem 0 0 0;
@@ -11,6 +18,17 @@
     display: inline-grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 4rem;
+    @media (max-width: $xs) {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      grid-template-columns: none;
+      margin: 0 auto;
+    }
   }
+
+}
+
+.mobile-content__container {
 
 }

@@ -5,6 +5,20 @@
 /* Font-colors */
 /* Search-form */
 /* Links */
+header {
+  z-index: 100;
+  background-color: white;
+  position: fixed;
+  height: 8.4rem;
+  width: 100%;
+}
+@media (max-width: 320px) {
+  header {
+    padding: 0 1.2rem;
+    z-index: 100;
+    height: inherit;
+  }
+}
 header .container {
   height: 8.4rem;
   padding: 0 7rem 0 3.2rem;
@@ -14,6 +28,15 @@ header .container {
 @media (max-width: 768px) {
   header .container {
     padding: 0 1.6rem;
+  }
+}
+@media (max-width: 576px) {
+  header .container {
+    height: 5rem;
+    width: 28.8rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
   }
 }
 header .container .header__burger-menu > div {
@@ -52,7 +75,7 @@ header .container .header__search-form {
 @media (max-width: 576px) {
   header .container .header__search-form {
     width: auto;
-    margin: 0 2.5rem 0 auto;
+    margin: 0 1.5rem 0 auto;
   }
 }
 header .container .header__search-form form {
@@ -154,6 +177,16 @@ header .container .header__user-block .header__user-block__user-profile {
   display: inline-block;
   width: 4rem;
   height: auto;
+}
+@media (max-width: 576px) {
+  header .container .header__user-block .header__user-block__user-profile {
+    width: 3rem;
+    height: 3rem;
+  }
+  header .container .header__user-block .header__user-block__user-profile img {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 header .container .header__user-block .header__user-block__user-profile img {
   width: 100%;

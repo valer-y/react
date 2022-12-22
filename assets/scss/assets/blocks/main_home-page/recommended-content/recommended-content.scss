@@ -3,6 +3,11 @@
 @import "../../../typography/fonts";
 
 .recommended {
+
+  @media (max-width: $xs) {
+    display: none;
+  }
+
   .recommended__title {
     display: flex;
     justify-content: space-between;

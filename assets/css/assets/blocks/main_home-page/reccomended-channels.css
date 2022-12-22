@@ -1,3 +1,8 @@
+@media (max-width: 320px) {
+  .recommended__channels {
+    display: none;
+  }
+}
 .recommended__channels .recommended__channels__content {
   padding: 3rem 0 0 0;
   overflow: hidden;
