@@ -1,7 +1,22 @@
+@import "../../typography/font-colors";
+@import "../../colors/colors";
+
+
 .video-content__navigation {
   display: flex;
   padding: 0 14rem 0 0;
   align-self: flex-end;
+  align-items: end;
+  .video-content__subscription-stat {
+    margin: 0;
+    line-height: 1.5;
+    padding: 0 1rem;
+    background-color: $color_bg_alert;
+    outline: 1rem solid $color_bg_alert;
+    margin-right: calc(4rem + 1rem);
+    border-radius: 2rem;
+    color: $font-color_in-notification;
+  }
   div {
     width: 2.8rem;
     height: 2.8rem;

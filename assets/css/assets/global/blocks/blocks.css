@@ -4,6 +4,28 @@
   margin: 0 auto;
 }
 
+.content__section {
+  margin: 0 0 5rem 0;
+}
+
+.channel__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.channel__info .channel__link {
+  display: flex;
+  align-items: center;
+}
+.channel__info .channel__link .channel__info-comment {
+  margin: 0 0 0 2rem;
+}
+.channel__info .channel__link .channel__icon img {
+  width: 5rem;
+  height: auto;
+  margin-right: 2rem;
+}
+
 .content__tab {
   display: inline-block;
 }
@@ -60,10 +82,28 @@
   margin: 0 5px;
 }
 
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Alerts and Notifications */
+/* Borders */
+/* Search form */
+/* BG */
 .video-content__navigation {
   display: flex;
   padding: 0 14rem 0 0;
   align-self: flex-end;
+  align-items: end;
+}
+.video-content__navigation .video-content__subscription-stat {
+  margin: 0;
+  line-height: 1.5;
+  padding: 0 1rem;
+  background-color: #FF0000;
+  outline: 1rem solid #FF0000;
+  margin-right: 5rem;
+  border-radius: 2rem;
+  color: #ffffff;
 }
 .video-content__navigation div {
   width: 2.8rem;

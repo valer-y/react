@@ -53,7 +53,7 @@
     </div>
 </header>
 
-<section class="content-section container">
+<section class="content-block container">
 <!------------------
 ### Navigation ###
 ------------------->
@@ -203,7 +203,7 @@
 
 <!-- **  Settings ** -->
 
-        <div class="settings container">
+        <div class="settings">
             <div class="settings__icon">
                 <img src="assets/img/settings/settings.svg" alt="settings">
             </div>
@@ -221,11 +221,11 @@
 
 <!-- Subscribed author  -->
 
-        <section class="subscribed-author container">
+        <section class="subscribed-author container content__section">
 
-            <div class="subscribed-author__info">
-                <a href="#" class="subscribed-author__link">
-                    <div class="subscribed-author__icon">
+            <div class="channel__info">
+                <a href="#" class="channel__link">
+                    <div class="channel__icon">
                         <img src="assets/img/subscriptions/francis.png" alt="francis" class="subscriptions__link__img">
                     </div>
                     <h2>
@@ -344,7 +344,7 @@
 
 <!-- Recommended content -->
 
-        <section class="recommended">
+        <section class="recommended content__section">
             <div class="recommended__title">
                 <h2>Recomended</h2>
                 <div class="video-content__navigation">
@@ -406,6 +406,130 @@
 
         </section>
 
+<!-- Recommended channels -->
+
+        <section class="recommended__channels content__section">
+
+            <div class="channel__info">
+                <a href="#" class="channel__link">
+                    <div class="channel__icon">
+                        <img src="assets/img/subscriptions/francis.png" alt="francis" class="subscriptions__link__img">
+                    </div>
+                    <h2>
+                        Dollie Blair
+                    </h2>
+                    <p class="channel__info-comment">Recommended channel for you</p>
+                </a>
+                <div class="video-content__navigation">
+                    <p class="video-content__subscription-stat" style="">Subscribe 2.3m</p>
+                    <div class="move-left"></div>
+                    <div class="move-right"></div>
+                </div>
+            </div>
+
+            <section class="recommended__channels__content">
+                <div class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <a datatype="content-author-name">Dollie Blair</a>
+                    </div>
+                </div>
+
+                <div class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <a datatype="content-author-name">Dollie Blair</a>
+                    </div>
+                </div>
+
+                <div class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <a datatype="content-author-name">Dollie Blair</a>
+                    </div>
+                </div>
+
+                <div class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <a datatype="content-author-name">Dollie Blair</a>
+                    </div>
+                </div>
+
+                <div class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <a datatype="content-author-name">Dollie Blair</a>
+                    </div>
+                </div>
+
+                <div class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <a datatype="content-author-name">Dollie Blair</a>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+        </section>
 
     </main>
 </section>

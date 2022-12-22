@@ -1,0 +1,19 @@
+.channel__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .channel__link {
+    display: flex;
+    align-items: center;
+    .channel__info-comment {
+      margin: 0 0 0 2rem;
+    }
+    .channel__icon {
+      img {
+        width: 5rem;
+        height: auto;
+        margin-right: 2rem;
+      }
+    }
+  }
+}

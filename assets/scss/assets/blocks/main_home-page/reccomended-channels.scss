@@ -1,0 +1,9 @@
+.recommended__channels {
+  .recommended__channels__content {
+    padding: 3rem 0 0 0;
+    overflow: hidden;
+    display: inline-grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 4rem;
+  }
+}

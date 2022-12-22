@@ -3,5 +3,10 @@
   margin: 0 auto;
 }
 
+.content__section {
+  margin: 0 0 5rem 0;
+}
+
+@import "channel_info";
 @import "content_tab";
 @import "video-content_navigation";

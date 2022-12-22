@@ -38,16 +38,16 @@ input::placeholder {
   text-decoration: none;
 }
 
+.subscriptions {
+  padding: 0 0 6rem 3.3rem;
+}
 @media (max-width: 320px) {
   .subscriptions {
     display: none;
   }
 }
 .subscriptions h3 {
-  text-align: center;
-}
-.subscriptions .subscriptions__list {
-  padding: 0 0 6rem 3.3rem;
+  margin: 0 0 1.9rem 0;
 }
 .subscriptions .subscriptions__list .subscriptions__link {
   display: flex;
