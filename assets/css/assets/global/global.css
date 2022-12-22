@@ -99,16 +99,17 @@
   padding: 0 14rem 0 0;
   align-self: flex-end;
   align-items: end;
+  position: relative;
 }
 .video-content__navigation .video-content__subscription-stat {
-  margin: 0;
   line-height: 1.5;
-  padding: 0 1rem;
+  padding: 0.5rem 2rem;
   background-color: #FF0000;
-  outline: 1rem solid #FF0000;
-  margin-right: 5rem;
+  margin: 0 4rem 0 0;
   border-radius: 2rem;
   color: #ffffff;
+  position: relative;
+  bottom: -0.5rem;
 }
 .video-content__navigation .move-left, .video-content__navigation .move-right {
   padding: 0.8rem;

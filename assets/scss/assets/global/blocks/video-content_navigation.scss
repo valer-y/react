@@ -7,15 +7,16 @@
   padding: 0 14rem 0 0;
   align-self: flex-end;
   align-items: end;
+  position: relative;
   .video-content__subscription-stat {
-    margin: 0;
     line-height: 1.5;
-    padding: 0 1rem;
+    padding: 0.5rem 2rem;
     background-color: $color_notification_active;
-    outline: 1rem solid $color_notification_active;
-    margin-right: calc(4rem + 1rem);
+    margin: 0 4rem 0 0;
     border-radius: 2rem;
     color: $font-color_in-notification;
+    position: relative;
+    bottom: -0.5rem;
   }
   .move-left, .move-right {
     padding: 0.8rem;
