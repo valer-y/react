@@ -37,6 +37,7 @@ p, a,
 input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
+  margin: 0;
 }
 
 .subscribed-author {
@@ -101,6 +102,7 @@ p, a,
 input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
+  margin: 0;
 }
 
 @media (max-width: 320px) {
@@ -135,6 +137,7 @@ input::placeholder {
 
 main {
   overflow: auto;
+  padding-top: 8.4rem;
 }
 
 /*# sourceMappingURL=main_home-page.css.map */
