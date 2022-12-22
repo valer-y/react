@@ -1,6 +1,8 @@
 .container aside {
   min-width: 25.5rem;
-  height: 100%;
+  height: auto;
+  position: relative;
+  padding: 2.9rem 0 0 0;
 }
 @media (max-width: 320px) {
   .container aside {

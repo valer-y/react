@@ -1,20 +1,36 @@
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Alerts and Notifications */
+/* Borders */
+/* Search form */
+/* BG */
 .video-content__navigation {
   display: flex;
   padding: 0 14rem 0 0;
   align-self: flex-end;
+  align-items: end;
+  position: relative;
 }
-.video-content__navigation div {
+.video-content__navigation .video-content__subscription-stat {
+  line-height: 1.5;
+  padding: 0.5rem 2rem;
+  background-color: #FF0000;
+  margin: 0 4rem 0 0;
+  border-radius: 2rem;
+  color: #ffffff;
+  position: relative;
+  bottom: -0.5rem;
+}
+.video-content__navigation .move-left, .video-content__navigation .move-right {
+  padding: 0.8rem;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 50%;
   background-color: #c2c2c2;
   margin-right: 1rem;
-  background-image: url("../img/nav/Left Arrow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
-.video-content__navigation .move-right {
-  transform: rotate(180deg);
-}
+
+/*/*/
 
 /*# sourceMappingURL=video-content_navigation.css.map */

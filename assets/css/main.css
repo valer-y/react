@@ -298,8 +298,34 @@ input::placeholder {
   margin: 0 auto;
 }
 
+.content__section {
+  margin: 0 0 5rem 0;
+}
+
+.channel__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.channel__info .channel__link {
+  display: flex;
+  align-items: center;
+}
+.channel__info .channel__link .channel__info-comment {
+  cursor: default;
+}
+.channel__info .channel__link .channel__info-comment {
+  margin: 0 0 0 2rem;
+}
+.channel__info .channel__link .channel__icon img {
+  width: 5rem;
+  height: auto;
+  margin-right: 2rem;
+}
+
 .content__tab {
   display: inline-block;
+  cursor: pointer;
 }
 .content__tab .video_medium {
   width: 54rem;
@@ -337,7 +363,7 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
 }
-.content__tab .content-info a {
+.content__tab .content-info span {
   padding: 0.4rem 0 0 0;
   font-size: 1.3rem;
 }
@@ -354,31 +380,49 @@ input::placeholder {
   margin: 0 5px;
 }
 
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Alerts and Notifications */
+/* Borders */
+/* Search form */
+/* BG */
 .video-content__navigation {
   display: flex;
   padding: 0 14rem 0 0;
   align-self: flex-end;
+  align-items: end;
+  position: relative;
 }
-.video-content__navigation div {
+.video-content__navigation .video-content__subscription-stat {
+  line-height: 1.5;
+  padding: 0.5rem 2rem;
+  background-color: #FF0000;
+  margin: 0 4rem 0 0;
+  border-radius: 2rem;
+  color: #ffffff;
+  position: relative;
+  bottom: -0.5rem;
+}
+.video-content__navigation .move-left, .video-content__navigation .move-right {
+  padding: 0.8rem;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 50%;
   background-color: #c2c2c2;
   margin-right: 1rem;
-  background-image: url("../img/nav/Left Arrow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.video-content__navigation .move-right {
-  transform: rotate(180deg);
 }
 
+/*/*/
 /* Alerts and Notifications */
 /* Borders */
 /* Search form */
+/* BG */
 .container aside {
   min-width: 25.5rem;
-  height: 100%;
+  height: auto;
+  position: relative;
+  padding: 2.9rem 0 0 0;
 }
 @media (max-width: 320px) {
   .container aside {
@@ -390,13 +434,14 @@ input::placeholder {
   }
 }
 
-.content-section {
+.content-block {
   display: flex;
 }
 
 /* Alerts and Notifications */
 /* Borders */
 /* Search form */
+/* BG */
 /* Font-colors */
 /* Search-form */
 /* Links */
@@ -538,7 +583,7 @@ header .container .header__user-block .header__user-block__notifications .notifi
   top: -0.5rem;
   right: -0.5rem;
   border: 1px solid #FFFFFF;
-  background-color: #c2c2c2;
+  background-color: #FF0000;
   font-size: 1.2rem;
   color: #ffffff;
   text-align: center;
@@ -597,20 +642,6 @@ input::placeholder {
 .subscribed-author {
   padding: 2.9rem 0 0 0;
 }
-.subscribed-author .subscribed-author__info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.subscribed-author .subscribed-author__info .subscribed-author__link {
-  align-items: center;
-  display: flex;
-}
-.subscribed-author .subscribed-author__info .subscribed-author__link .subscribed-author__icon img {
-  width: 5rem;
-  height: auto;
-  margin-right: 2rem;
-}
 .subscribed-author .subscribed-author__content {
   padding: 3rem 0 0 0;
   overflow: hidden;
@@ -658,9 +689,6 @@ input::placeholder {
   text-decoration: none;
 }
 
-.recommended {
-  padding: 5rem 0 0 0;
-}
 .recommended .recommended__title {
   display: flex;
   justify-content: space-between;
@@ -670,6 +698,14 @@ input::placeholder {
   overflow: hidden;
   display: inline-grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+}
+
+.recommended__channels .recommended__channels__content {
+  padding: 3rem 0 0 0;
+  overflow: hidden;
+  display: inline-grid;
+  grid-template-columns: repeat(6, 1fr);
   column-gap: 4rem;
 }
 
@@ -779,6 +815,8 @@ input::placeholder {
   display: flex;
   align-items: center;
   font-size: 1.6rem;
+  position: absolute;
+  bottom: 0;
 }
 @media (max-width: 320px) {
   .settings {
@@ -828,16 +866,16 @@ input::placeholder {
   text-decoration: none;
 }
 
+.subscriptions {
+  padding: 0 0 6rem 3.3rem;
+}
 @media (max-width: 320px) {
   .subscriptions {
     display: none;
   }
 }
 .subscriptions h3 {
-  text-align: center;
-}
-.subscriptions .subscriptions__list {
-  padding: 0 0 6rem 3.3rem;
+  margin: 0 0 1.9rem 0;
 }
 .subscriptions .subscriptions__list .subscriptions__link {
   display: flex;

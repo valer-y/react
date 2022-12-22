@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .content__tab {
   display: inline-block;
+  cursor: pointer;
 }
 .content__tab .video_medium {
   width: 54rem;
@@ -38,7 +39,7 @@
   display: flex;
   justify-content: space-between;
 }
-.content__tab .content-info a {
+.content__tab .content-info span {
   padding: 0.4rem 0 0 0;
   font-size: 1.3rem;
 }

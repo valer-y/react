@@ -4,7 +4,9 @@
 @import url("https://use.typekit.net/jrb6nlz.css");
 .container aside {
   min-width: 25.5rem;
-  height: 100%;
+  height: auto;
+  position: relative;
+  padding: 2.9rem 0 0 0;
 }
 @media (max-width: 320px) {
   .container aside {
@@ -16,13 +18,14 @@
   }
 }
 
-.content-section {
+.content-block {
   display: flex;
 }
 
 /* Alerts and Notifications */
 /* Borders */
 /* Search form */
+/* BG */
 /* Font-colors */
 /* Search-form */
 /* Links */
@@ -164,7 +167,7 @@ header .container .header__user-block .header__user-block__notifications .notifi
   top: -0.5rem;
   right: -0.5rem;
   border: 1px solid #FFFFFF;
-  background-color: #c2c2c2;
+  background-color: #FF0000;
   font-size: 1.2rem;
   color: #ffffff;
   text-align: center;
@@ -223,20 +226,6 @@ input::placeholder {
 .subscribed-author {
   padding: 2.9rem 0 0 0;
 }
-.subscribed-author .subscribed-author__info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.subscribed-author .subscribed-author__info .subscribed-author__link {
-  align-items: center;
-  display: flex;
-}
-.subscribed-author .subscribed-author__info .subscribed-author__link .subscribed-author__icon img {
-  width: 5rem;
-  height: auto;
-  margin-right: 2rem;
-}
 .subscribed-author .subscribed-author__content {
   padding: 3rem 0 0 0;
   overflow: hidden;
@@ -284,9 +273,6 @@ input::placeholder {
   text-decoration: none;
 }
 
-.recommended {
-  padding: 5rem 0 0 0;
-}
 .recommended .recommended__title {
   display: flex;
   justify-content: space-between;
@@ -296,6 +282,14 @@ input::placeholder {
   overflow: hidden;
   display: inline-grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+}
+
+.recommended__channels .recommended__channels__content {
+  padding: 3rem 0 0 0;
+  overflow: hidden;
+  display: inline-grid;
+  grid-template-columns: repeat(6, 1fr);
   column-gap: 4rem;
 }
 
@@ -405,6 +399,8 @@ input::placeholder {
   display: flex;
   align-items: center;
   font-size: 1.6rem;
+  position: absolute;
+  bottom: 0;
 }
 @media (max-width: 320px) {
   .settings {
@@ -454,16 +450,16 @@ input::placeholder {
   text-decoration: none;
 }
 
+.subscriptions {
+  padding: 0 0 6rem 3.3rem;
+}
 @media (max-width: 320px) {
   .subscriptions {
     display: none;
   }
 }
 .subscriptions h3 {
-  text-align: center;
-}
-.subscriptions .subscriptions__list {
-  padding: 0 0 6rem 3.3rem;
+  margin: 0 0 1.9rem 0;
 }
 .subscriptions .subscriptions__list .subscriptions__link {
   display: flex;
