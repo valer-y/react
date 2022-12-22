@@ -6,6 +6,9 @@
     display: flex;
     align-items: center;
     .channel__info-comment {
+      cursor: default;
+    }
+    .channel__info-comment {
       margin: 0 0 0 2rem;
     }
     .channel__icon {

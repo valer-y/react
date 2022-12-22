@@ -233,8 +233,12 @@
                     </h2>
                 </a>
                 <div class="video-content__navigation">
-                    <div class="move-left"></div>
-                    <div class="move-right"></div>
+                    <svg class="move-left" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00168 0.666111L7.53635 1.20513C7.71212 1.39201 7.80005 1.61012 7.80005 1.8592C7.80005 2.11332 7.71212 2.32896 7.53635 2.50631L4.07191 6L7.53626 9.49369C7.71203 9.67104 7.79996 9.88668 7.79996 10.1407C7.79996 10.3899 7.71203 10.608 7.53626 10.7949L7.00159 11.3268C6.8211 11.5089 6.60482 11.6 6.35293 11.6C6.09631 11.6 5.88248 11.5089 5.71143 11.3268L1.07093 6.64701C0.890341 6.47443 0.800049 6.25888 0.800049 6C0.800049 5.74597 0.890341 5.52795 1.07093 5.34592L5.71143 0.666111C5.88729 0.488762 6.10112 0.399999 6.35293 0.399999C6.60009 0.399999 6.81628 0.488762 7.00168 0.666111V0.666111Z" fill="white"/>
+                    </svg>
+                    <svg class="move-right" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.998319 0.666111L0.463653 1.20513C0.287881 1.39201 0.199951 1.61012 0.199951 1.8592C0.199951 2.11332 0.287881 2.32896 0.463653 2.50631L3.92809 6L0.463741 9.49369C0.287968 9.67104 0.200039 9.88668 0.200039 10.1407C0.200039 10.3899 0.287968 10.608 0.463741 10.7949L0.998406 11.3268C1.1789 11.5089 1.39518 11.6 1.64707 11.6C1.90369 11.6 2.11752 11.5089 2.28857 11.3268L6.92907 6.64701C7.10966 6.47443 7.19995 6.25888 7.19995 6C7.19995 5.74597 7.10966 5.52795 6.92907 5.34592L2.28857 0.666111C2.11271 0.488762 1.89888 0.399999 1.64707 0.399999C1.39991 0.399999 1.18372 0.488762 0.998319 0.666111Z" fill="white"/>
+                    </svg>
                 </div>
             </div>
 
@@ -242,7 +246,7 @@
 
             <section class="subscribed-author__content">
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -254,11 +258,11 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -270,11 +274,11 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -286,11 +290,11 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -302,11 +306,11 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -318,11 +322,11 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -334,9 +338,9 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
             </section>
 
@@ -348,14 +352,18 @@
             <div class="recommended__title">
                 <h2>Recomended</h2>
                 <div class="video-content__navigation">
-                    <div class="move-left"></div>
-                    <div class="move-right"></div>
+                    <svg class="move-left" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00168 0.666111L7.53635 1.20513C7.71212 1.39201 7.80005 1.61012 7.80005 1.8592C7.80005 2.11332 7.71212 2.32896 7.53635 2.50631L4.07191 6L7.53626 9.49369C7.71203 9.67104 7.79996 9.88668 7.79996 10.1407C7.79996 10.3899 7.71203 10.608 7.53626 10.7949L7.00159 11.3268C6.8211 11.5089 6.60482 11.6 6.35293 11.6C6.09631 11.6 5.88248 11.5089 5.71143 11.3268L1.07093 6.64701C0.890341 6.47443 0.800049 6.25888 0.800049 6C0.800049 5.74597 0.890341 5.52795 1.07093 5.34592L5.71143 0.666111C5.88729 0.488762 6.10112 0.399999 6.35293 0.399999C6.60009 0.399999 6.81628 0.488762 7.00168 0.666111V0.666111Z" fill="white"/>
+                    </svg>
+                    <svg class="move-right" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.998319 0.666111L0.463653 1.20513C0.287881 1.39201 0.199951 1.61012 0.199951 1.8592C0.199951 2.11332 0.287881 2.32896 0.463653 2.50631L3.92809 6L0.463741 9.49369C0.287968 9.67104 0.200039 9.88668 0.200039 10.1407C0.200039 10.3899 0.287968 10.608 0.463741 10.7949L0.998406 11.3268C1.1789 11.5089 1.39518 11.6 1.64707 11.6C1.90369 11.6 2.11752 11.5089 2.28857 11.3268L6.92907 6.64701C7.10966 6.47443 7.19995 6.25888 7.19995 6C7.19995 5.74597 7.10966 5.52795 6.92907 5.34592L2.28857 0.666111C2.11271 0.488762 1.89888 0.399999 1.64707 0.399999C1.39991 0.399999 1.18372 0.488762 0.998319 0.666111Z" fill="white"/>
+                    </svg>
                 </div>
             </div>
             <div class="recommended__content">
 
-                <div class="content__tab">
-                    <div class="video_medium video-content ">
+                <a class="content__tab">
+                    <div class="video_medium video-content">
                         <div class="video-time">
                             4:15
                         </div>
@@ -366,12 +374,12 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
-                    <div class="video_medium video-content ">
+                <a class="content__tab">
+                    <div class="video_medium video-content">
                         <div class="video-time">
                             4:15
                         </div>
@@ -382,12 +390,12 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
-                    <div class="video_medium video-content ">
+                <a class="content__tab">
+                    <div class="video_medium video-content">
                         <div class="video-time">
                             4:15
                         </div>
@@ -398,9 +406,9 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
             </div>
 
@@ -422,29 +430,18 @@
                 </a>
                 <div class="video-content__navigation">
                     <p class="video-content__subscription-stat" style="">Subscribe 2.3m</p>
-                    <div class="move-left"></div>
-                    <div class="move-right"></div>
+                    <svg class="move-left" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00168 0.666111L7.53635 1.20513C7.71212 1.39201 7.80005 1.61012 7.80005 1.8592C7.80005 2.11332 7.71212 2.32896 7.53635 2.50631L4.07191 6L7.53626 9.49369C7.71203 9.67104 7.79996 9.88668 7.79996 10.1407C7.79996 10.3899 7.71203 10.608 7.53626 10.7949L7.00159 11.3268C6.8211 11.5089 6.60482 11.6 6.35293 11.6C6.09631 11.6 5.88248 11.5089 5.71143 11.3268L1.07093 6.64701C0.890341 6.47443 0.800049 6.25888 0.800049 6C0.800049 5.74597 0.890341 5.52795 1.07093 5.34592L5.71143 0.666111C5.88729 0.488762 6.10112 0.399999 6.35293 0.399999C6.60009 0.399999 6.81628 0.488762 7.00168 0.666111V0.666111Z" fill="white"/>
+                    </svg>
+                    <svg class="move-right" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.998319 0.666111L0.463653 1.20513C0.287881 1.39201 0.199951 1.61012 0.199951 1.8592C0.199951 2.11332 0.287881 2.32896 0.463653 2.50631L3.92809 6L0.463741 9.49369C0.287968 9.67104 0.200039 9.88668 0.200039 10.1407C0.200039 10.3899 0.287968 10.608 0.463741 10.7949L0.998406 11.3268C1.1789 11.5089 1.39518 11.6 1.64707 11.6C1.90369 11.6 2.11752 11.5089 2.28857 11.3268L6.92907 6.64701C7.10966 6.47443 7.19995 6.25888 7.19995 6C7.19995 5.74597 7.10966 5.52795 6.92907 5.34592L2.28857 0.666111C2.11271 0.488762 1.89888 0.399999 1.64707 0.399999C1.39991 0.399999 1.18372 0.488762 0.998319 0.666111Z" fill="white"/>
+                    </svg>
                 </div>
             </div>
 
             <section class="recommended__channels__content">
-                <div class="content__tab">
-                    <div class="video_small video-content">
-                        <div class="video-time">
-                            4:15
-                        </div>
-                    </div>
-                    <h4>A Brief History Of Creation</h4>
-                    <div class="content-info">
-                        <div class="content_data">
-                            <p datatype="content-views">80k views</p>
-                            <p datatype="contnet-publish-date">3 days ago</p>
-                        </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
-                    </div>
-                </div>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -456,11 +453,11 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -472,11 +469,11 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -488,11 +485,11 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -504,11 +501,11 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
 
-                <div class="content__tab">
+                <a class="content__tab">
                     <div class="video_small video-content">
                         <div class="video-time">
                             4:15
@@ -520,14 +517,27 @@
                             <p datatype="content-views">80k views</p>
                             <p datatype="contnet-publish-date">3 days ago</p>
                         </div>
-                        <a datatype="content-author-name">Dollie Blair</a>
+                        <span datatype="content-author-name">Dollie Blair</>
                     </div>
-                </div>
+                </a>
+
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <span datatype="content-author-name">Dollie Blair</>
+                    </div>
+                </a>
 
             </section>
-
-
-
 
         </section>
 

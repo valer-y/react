@@ -1,5 +1,6 @@
 .content__tab {
   display: inline-block;
+  cursor: pointer;
   .video_medium {
     width: 54rem;
     height: 25rem;
@@ -35,7 +36,7 @@
   .content-info {
     display: flex;
     justify-content: space-between;
-    a {
+    span {
       padding: 0.4rem 0 0 0;
       font-size: 1.3rem;
     }

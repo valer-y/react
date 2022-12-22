@@ -11,23 +11,18 @@
     margin: 0;
     line-height: 1.5;
     padding: 0 1rem;
-    background-color: $color_bg_alert;
-    outline: 1rem solid $color_bg_alert;
+    background-color: $color_notification_active;
+    outline: 1rem solid $color_notification_active;
     margin-right: calc(4rem + 1rem);
     border-radius: 2rem;
     color: $font-color_in-notification;
   }
-  div {
+  .move-left, .move-right {
+    padding: 0.8rem;
     width: 2.8rem;
     height: 2.8rem;
     border-radius: 50%;
     background-color: #c2c2c2;
     margin-right: 1rem;
-    background-image: url("../img/nav/Left Arrow.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .move-right {
-    transform: rotate(180deg);
   }
 }
