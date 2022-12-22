@@ -38,6 +38,11 @@ input::placeholder {
   text-decoration: none;
 }
 
+@media (max-width: 320px) {
+  .recommended {
+    display: none;
+  }
+}
 .recommended .recommended__title {
   display: flex;
   justify-content: space-between;

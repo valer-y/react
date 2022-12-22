@@ -1,4 +1,11 @@
+@import "../../global/breakpoints/breakpoints";
+
 .recommended__channels {
+
+  @media (max-width: $xs) {
+    display: none;
+  }
+
   .recommended__channels__content {
     padding: 3rem 0 0 0;
     overflow: hidden;

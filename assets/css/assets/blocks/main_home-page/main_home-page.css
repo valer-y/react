@@ -42,12 +42,26 @@ input::placeholder {
 .subscribed-author {
   padding: 2.9rem 0 0 0;
 }
+@media (max-width: 320px) {
+  .subscribed-author .channel__info {
+    display: none;
+  }
+}
 .subscribed-author .subscribed-author__content {
   padding: 3rem 0 0 0;
   overflow: hidden;
   display: inline-grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 4rem;
+}
+@media (max-width: 320px) {
+  .subscribed-author .subscribed-author__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    grid-template-columns: none;
+    margin: 0 auto;
+  }
 }
 
 /* Font-colors */
@@ -89,6 +103,11 @@ input::placeholder {
   text-decoration: none;
 }
 
+@media (max-width: 320px) {
+  .recommended {
+    display: none;
+  }
+}
 .recommended .recommended__title {
   display: flex;
   justify-content: space-between;
@@ -101,6 +120,11 @@ input::placeholder {
   column-gap: 4rem;
 }
 
+@media (max-width: 320px) {
+  .recommended__channels {
+    display: none;
+  }
+}
 .recommended__channels .recommended__channels__content {
   padding: 3rem 0 0 0;
   overflow: hidden;
