@@ -648,6 +648,9 @@ header .container .header__user-block .header__user-block__user-profile img {
   height: auto;
 }
 
+/* Font-colors */
+/* Search-form */
+/* Links */
 .channel__content {
   padding: 1rem 7rem 0 0;
 }
@@ -662,12 +665,31 @@ header .container .header__user-block .header__user-block__user-profile img {
   display: flex;
   height: auto;
   width: auto;
+  margin: 0 0 2.4rem 0;
 }
 .channel__content .channel__author-info .channel__author__description .author-block__text {
   padding: 0 0 0 1.4rem;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
+}
+.channel__content .channel__author-info .channel__navigation .navigation__elem {
+  width: auto;
+  display: inline-block;
+  font-size: 1.8rem;
+  padding: 0 0.5rem;
+  border-radius: 2px;
+  line-height: 1.5;
+  color: #000000;
+  margin: 0 6.2rem 0 0;
+}
+.channel__content .channel__author-info .channel__navigation .navigation__elem:last-child {
+  background-image: url("../img/header/search-form/lens.svg");
+}
+.channel__content .channel__author-info .channel__navigation .navigation__elem:hover, .channel__content .channel__author-info .channel__navigation .navigation__elem:active {
+  border-bottom: 2px solid #FF0000;
+  font-weight: 700;
+  color: #FF0000;
 }
 .channel__content .channel__author-info .video-content__navigation {
   padding: 0;

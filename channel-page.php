@@ -239,6 +239,15 @@
                         <p class="video-content__subscription-stat" style="">Subscribe 2.3m</p>
                     </div>
                 </div>
+                <div class="channel__navigation">
+                    <div class="navigation__elem">Home</div>
+                    <div class="navigation__elem">Video</div>
+                    <div class="navigation__elem">Playlists</div>
+                    <div class="navigation__elem">Channel</div>
+                    <div class="navigation__elem">Discussion</div>
+                    <div class="navigation__elem">About</div>
+                    <div class="navigation__elem"></div>
+                </div>
 
             </section>
         </section>
