@@ -262,6 +262,7 @@ summary {
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 * {
   font-family: "Muli", sans-serif;
   color: #C2C2C2;
@@ -395,6 +396,7 @@ input::placeholder {
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 /* Alerts and Notifications */
 /* Borders */
 /* Search form */
@@ -460,6 +462,7 @@ input::placeholder {
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 header {
   z-index: 100;
   background-color: white;
@@ -651,6 +654,7 @@ header .container .header__user-block .header__user-block__user-profile img {
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 .channel__content {
   padding: 1rem 7rem 0 0;
 }
@@ -665,7 +669,7 @@ header .container .header__user-block .header__user-block__user-profile img {
   display: flex;
   height: auto;
   width: auto;
-  margin: 0 0 2.4rem 0;
+  margin: 0 0 2rem 0;
 }
 .channel__content .channel__author-info .channel__author__description .author-block__text {
   padding: 0 0 0 1.4rem;
@@ -683,8 +687,17 @@ header .container .header__user-block .header__user-block__user-profile img {
   color: #000000;
   margin: 0 6.2rem 0 0;
 }
-.channel__content .channel__author-info .channel__navigation .navigation__elem:last-child {
-  background-image: url("../img/header/search-form/lens.svg");
+.channel__content .channel__author-info .channel__navigation .navigation__elem::before {
+  display: block;
+  content: "";
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.channel__content .channel__author-info .channel__navigation .navigation__elem img {
+  width: 1.8rem;
+  height: 1.8rem;
 }
 .channel__content .channel__author-info .channel__navigation .navigation__elem:hover, .channel__content .channel__author-info .channel__navigation .navigation__elem:active {
   border-bottom: 2px solid #FF0000;
@@ -702,15 +715,50 @@ header .container .header__user-block .header__user-block__user-profile img {
   position: unset;
 }
 
+ul {
+  display: flex;
+  text-decoration: none;
+  padding: 0;
+}
+ul li {
+  height: 2.8rem;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 6rem;
+  font-size: 0;
+}
+ul li:hover a {
+  color: #FF0000;
+  font-weight: bold;
+  border-bottom: 2px solid #FF0000;
+  border-radius: 2px;
+}
+ul li a {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 0 0.45rem 0.45rem;
+}
+ul li a::before {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 /* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 * {
   font-family: "Muli", sans-serif;
   color: #C2C2C2;
@@ -770,12 +818,14 @@ input::placeholder {
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 /* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 * {
   font-family: "Muli", sans-serif;
   color: #C2C2C2;
@@ -845,12 +895,14 @@ main {
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 /* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 * {
   font-family: "Muli", sans-serif;
   color: #C2C2C2;
@@ -960,12 +1012,14 @@ input::placeholder {
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 /* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 * {
   font-family: "Muli", sans-serif;
   color: #C2C2C2;

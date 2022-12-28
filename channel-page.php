@@ -239,15 +239,33 @@
                         <p class="video-content__subscription-stat" style="">Subscribe 2.3m</p>
                     </div>
                 </div>
+
+
+        <!---- Seems to be navigation ----->
+
+<!--                <ul style="display: flex">-->
+<!--                    <li><a href="" title="Home">Home</a></li>-->
+<!--                    <li><a href="" title="Video">Video</a></li>-->
+<!--                    <li><a href="" title="Playlists">Playlists</a></li>-->
+<!--                    <li><a href="" title="Channels">Channels</a></li>-->
+<!--                    <li><a href="" title="Discussion">Discussion</a></li>-->
+<!--                    <li><a href="" title="About">About</a></li>-->
+<!--                    <li>-->
+<!--                        <a href="">-->
+<!--                            <img src="assets/img/header/search-form/lens.svg" alt="">-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                </ul>-->
                 <div class="channel__navigation">
-                    <div class="navigation__elem">Home</div>
-                    <div class="navigation__elem">Video</div>
-                    <div class="navigation__elem">Playlists</div>
-                    <div class="navigation__elem">Channel</div>
-                    <div class="navigation__elem">Discussion</div>
-                    <div class="navigation__elem">About</div>
-                    <div class="navigation__elem"></div>
+        <!--- Reconsider! ---------->
                 </div>
+
+                <ul>
+                    <li><a href="" title="Navigation">Navigation</a></li>
+                    <li><a href="" title="Navigation">Navigation</a></li>
+                    <li><a href="" title="Navigation">Navigation</a></li>
+                    <li><a href="" title="Navigation">Navigation</a></li>
+                </ul>
 
             </section>
         </section>
@@ -256,3 +274,11 @@
 </section>
 </body>
 </html>
+
+
+<div style="width: 100%; background-color: #c2c2c2">
+    <a href="" class="block" style="display: block; text-decoration: none">
+        <img src="" alt="">
+        <p></p>
+    </a>
+</div>
