@@ -1,3 +1,6 @@
+@import "../../global/breakpoints/breakpoints";
+@import "../../typography/font-colors";
+
 .channel__content {
   padding: 1rem 7rem 0 0;
   .channel__author-info {
@@ -12,12 +15,61 @@
       display: flex;
       height: auto;
       width: auto;
+      margin: 0 0 2rem 0;
       .author-block__text{
         padding: 0 0 0 1.4rem;
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
       }
+    }
+    .channel__navigation {
+
+      ul {
+        display: flex;
+        text-decoration: none;
+        padding: 0;
+
+        li {
+          height: 2.8rem;
+          display: inline-block;
+          text-decoration: none;
+          margin-right: 5.8rem;
+          font-size: 0;
+          &:last-child {
+            a {
+              height: 2.7rem;
+              width: 2.9rem;
+            }
+          }
+          &:hover {
+            a {
+              color: $font-color__navigation-link_active;
+              font-weight: bold;
+              border-bottom: 2px solid $border-color__active;
+              border-radius: 2px;
+              svg > path {
+                fill: $font-color__navigation-link_active;
+              }
+            }
+          }
+          a {
+            display: inline-block;
+            text-align: center;
+            font-size: 1.8rem;
+            padding: 0 0.45rem 0.45rem;
+            &::before {
+              display: block;
+              content: attr(title);
+              font-weight: bold;
+              height: 0;
+              overflow: hidden;
+              visibility: hidden;
+            }
+          }
+        }
+      }
+
     }
     .video-content__navigation {
       padding: 0;
@@ -31,3 +83,4 @@
     }
   }
 }
+
