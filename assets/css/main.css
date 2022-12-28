@@ -269,10 +269,11 @@ summary {
   font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #19202C;
   font-weight: 700;
   margin: 0;
+  line-height: 3.4rem;
 }
 
 h1, h2 {
@@ -283,7 +284,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-h4 {
+h4, h5 {
   font-size: 1.6rem;
 }
 
@@ -292,12 +293,18 @@ input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
   margin: 0;
+  line-height: 2.2rem;
 }
 
 /* Global styles */
 .container {
   width: 100%;
   margin: 0 auto;
+}
+
+.container_flex {
+  display: flex;
+  width: 100%;
 }
 
 .content__section {
@@ -380,15 +387,16 @@ input::placeholder {
   padding: 0.4rem 0 0 0;
   font-size: 1.3rem;
 }
-.content__tab .content-info .content_data {
+
+.content_data {
   display: flex;
   padding: 0.4rem 0 0 0;
 }
-.content__tab .content-info .content_data p {
+.content_data p {
   font-size: 1.3rem;
   margin: 0;
 }
-.content__tab .content-info .content_data p:first-child::after {
+.content_data p:first-child::after {
   content: "･";
   margin: 0 5px;
 }
@@ -677,6 +685,33 @@ header .container .header__user-block .header__user-block__user-profile img {
   flex-direction: column;
   justify-content: center;
 }
+.channel__content .channel__author-info .author-content__block .recommended__channels {
+  width: 22rem;
+  margin-left: auto;
+}
+.channel__content .channel__author-info .author-content__block .subscriptions {
+  padding: 0;
+}
+.channel__content .channel__author-info .author-content__block .subscriptions h4 {
+  margin: 1rem 0 3rem 0;
+  height: 2.8rem;
+  display: inline-flex;
+  align-items: end;
+  font-weight: normal;
+  color: #C2C2C2;
+}
+.channel__content .channel__author-info .author-content__block .subscriptions .subscriptions__list .subscriptions__link {
+  margin-bottom: 3rem;
+}
+.channel__content .channel__author-info .author-content__block .subscriptions .subscriptions__list .subscriptions__link .subscriptions__link__icon img {
+  width: 5rem;
+  height: auto;
+  margin-right: 2rem;
+}
+.channel__content .channel__author-info .author-content__block .subscriptions .subscriptions__list .subscriptions__link .subscriptions__link__text {
+  font-size: 1.8rem;
+  color: #19202C;
+}
 .channel__content .channel__author-info .channel__navigation ul {
   display: flex;
   text-decoration: none;
@@ -716,6 +751,27 @@ header .container .header__user-block .header__user-block__user-profile img {
   overflow: hidden;
   visibility: hidden;
 }
+.channel__content .channel__author-info .author-current-video__block {
+  padding: 4.4rem 0 0 0;
+  width: 100%;
+}
+.channel__content .channel__author-info .author-current-video__block .current-video__description {
+  padding: 2rem 0 1rem 3.2rem;
+  max-width: 58.2rem;
+}
+.channel__content .channel__author-info .author-current-video__block .current-video__description h1 {
+  margin-bottom: 1rem;
+  max-width: 43rem;
+}
+.channel__content .channel__author-info .author-current-video__block .current-video__description p {
+  margin-bottom: 3rem;
+  line-height: 2.2rem;
+  color: #666666;
+}
+.channel__content .channel__author-info .author-current-video__block .current-video__description .content_data p {
+  margin: 0;
+  font-size: 1.6rem;
+}
 .channel__content .channel__author-info .video-content__navigation {
   padding: 0;
   margin: 0 0 0 auto;
@@ -744,10 +800,11 @@ header .container .header__user-block .header__user-block__user-profile img {
   font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #19202C;
   font-weight: 700;
   margin: 0;
+  line-height: 3.4rem;
 }
 
 h1, h2 {
@@ -758,7 +815,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-h4 {
+h4, h5 {
   font-size: 1.6rem;
 }
 
@@ -767,6 +824,7 @@ input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
   margin: 0;
+  line-height: 2.2rem;
 }
 
 .subscribed-author {
@@ -811,10 +869,11 @@ input::placeholder {
   font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #19202C;
   font-weight: 700;
   margin: 0;
+  line-height: 3.4rem;
 }
 
 h1, h2 {
@@ -825,7 +884,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-h4 {
+h4, h5 {
   font-size: 1.6rem;
 }
 
@@ -834,6 +893,7 @@ input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
   margin: 0;
+  line-height: 2.2rem;
 }
 
 @media (max-width: 320px) {
@@ -888,10 +948,11 @@ main {
   font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #19202C;
   font-weight: 700;
   margin: 0;
+  line-height: 3.4rem;
 }
 
 h1, h2 {
@@ -902,7 +963,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-h4 {
+h4, h5 {
   font-size: 1.6rem;
 }
 
@@ -911,6 +972,7 @@ input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
   margin: 0;
+  line-height: 2.2rem;
 }
 
 .nav-menu {
@@ -1005,10 +1067,11 @@ input::placeholder {
   font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #19202C;
   font-weight: 700;
   margin: 0;
+  line-height: 3.4rem;
 }
 
 h1, h2 {
@@ -1019,7 +1082,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-h4 {
+h4, h5 {
   font-size: 1.6rem;
 }
 
@@ -1028,6 +1091,7 @@ input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
   margin: 0;
+  line-height: 2.2rem;
 }
 
 .subscriptions {

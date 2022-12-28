@@ -16,10 +16,11 @@
   font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #19202C;
   font-weight: 700;
   margin: 0;
+  line-height: 3.4rem;
 }
 
 h1, h2 {
@@ -30,7 +31,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-h4 {
+h4, h5 {
   font-size: 1.6rem;
 }
 
@@ -39,6 +40,7 @@ input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
   margin: 0;
+  line-height: 2.2rem;
 }
 
 .subscriptions {

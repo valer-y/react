@@ -4,6 +4,11 @@
   margin: 0 auto;
 }
 
+.container_flex {
+  display: flex;
+  width: 100%;
+}
+
 .content__section {
   margin: 0 0 5rem 0;
 }
@@ -84,15 +89,16 @@
   padding: 0.4rem 0 0 0;
   font-size: 1.3rem;
 }
-.content__tab .content-info .content_data {
+
+.content_data {
   display: flex;
   padding: 0.4rem 0 0 0;
 }
-.content__tab .content-info .content_data p {
+.content_data p {
   font-size: 1.3rem;
   margin: 0;
 }
-.content__tab .content-info .content_data p:first-child::after {
+.content_data p:first-child::after {
   content: "･";
   margin: 0 5px;
 }

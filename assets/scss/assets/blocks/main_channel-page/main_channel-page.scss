@@ -23,6 +23,39 @@
         justify-content: center;
       }
     }
+    .author-content__block {
+      .recommended__channels {
+        width: 22rem;
+        margin-left: auto;
+      }
+      .subscriptions {
+        padding: 0;
+        h4{
+          margin: 1rem 0 3rem 0;
+          height: 2.8rem;
+          display: inline-flex;
+          align-items: end;
+          font-weight: normal;
+          color: $font-color_main;
+        }
+        .subscriptions__list {
+          .subscriptions__link {
+            margin-bottom: 3rem;
+            .subscriptions__link__icon {
+              img {
+                width: 5rem;
+                height: auto;
+                margin-right: 2rem;
+              }
+            }
+            .subscriptions__link__text {
+              font-size: 1.8rem;
+              color: $font-color_bold;
+            }
+          }
+        }
+      }
+    }
     .channel__navigation {
 
       ul {
@@ -70,6 +103,29 @@
         }
       }
 
+    }
+    .author-current-video__block {
+      padding: 4.4rem 0 0 0;
+      width: 100%;
+      .current-video__description {
+        padding: 2rem 0 1rem 3.2rem;
+        max-width: calc(55rem + 3.2rem);
+        h1 {
+          margin-bottom: 1rem;
+          max-width: 43rem;
+        }
+        p {
+          margin-bottom: 3rem;
+          line-height: 2.2rem;
+          color: $font-color_main-dark;
+        }
+        .content_data {
+          p {
+            margin: 0;
+            font-size: 1.6rem;
+          }
+        }
+      }
     }
     .video-content__navigation {
       padding: 0;

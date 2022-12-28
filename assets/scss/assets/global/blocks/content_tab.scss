@@ -52,18 +52,19 @@
       padding: 0.4rem 0 0 0;
       font-size: 1.3rem;
     }
-    .content_data {
-      display: flex;
-      padding: 0.4rem 0 0 0;
-      p {
-        font-size: 1.3rem;
-        margin: 0;
-        &:first-child::after {
-          content: "･";
-          margin: 0 5px;
-        }
-      }
-    }
   }
 
+}
+
+.content_data {
+  display: flex;
+  padding: 0.4rem 0 0 0;
+  p {
+    font-size: 1.3rem;
+    margin: 0;
+    &:first-child::after {
+      content: "･";
+      margin: 0 5px;
+    }
+  }
 }
