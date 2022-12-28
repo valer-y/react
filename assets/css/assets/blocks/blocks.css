@@ -228,7 +228,7 @@ header .container .header__user-block .header__user-block__user-profile img {
 .channel__content {
   padding: 1rem 7rem 0 0;
 }
-.channel__content .channel__author-info .channel__cover {
+.channel__content .channel__cover {
   height: 28rem;
   width: 100%;
   border-radius: 1.4rem;
@@ -246,6 +246,9 @@ header .container .header__user-block .header__user-block__user-profile img {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
+}
+.channel__content .channel__author-info .author-content__block {
+  margin-bottom: 3rem;
 }
 .channel__content .channel__author-info .author-content__block .recommended__channels {
   width: 22rem;
