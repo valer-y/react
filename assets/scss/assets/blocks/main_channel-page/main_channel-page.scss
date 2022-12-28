@@ -25,34 +25,51 @@
     }
     .channel__navigation {
 
-      .navigation__elem {
-        width: auto;
-        display: inline-block;
-        font-size: 1.8rem;
-        padding: 0 0.5rem;
-        border-radius: 2px;
-        line-height: 1.5;
-        color: $font-color_black;
-        margin: 0 6.2rem 0 0;
-        &::before {
-          display: block;
-          content: '';
-          font-weight: bold;
-          height: 0;
-          overflow: hidden;
-          visibility: hidden;
-        }
-        img {
-          width: 1.8rem;
-          height: 1.8rem;
-        }
-        &:hover,
-        &:active {
-          border-bottom: 2px solid $font_color__active;
-          font-weight: 700;
-          color: $font_color__active;
+      ul {
+        display: flex;
+        text-decoration: none;
+        padding: 0;
+
+        li {
+          height: 2.8rem;
+          display: inline-block;
+          text-decoration: none;
+          margin-right: 5.8rem;
+          font-size: 0;
+          &:last-child {
+            a {
+              height: 2.7rem;
+              width: 2.9rem;
+            }
+          }
+          &:hover {
+            a {
+              color: $font-color__navigation-link_active;
+              font-weight: bold;
+              border-bottom: 2px solid $border-color__active;
+              border-radius: 2px;
+              svg > path {
+                fill: $font-color__navigation-link_active;
+              }
+            }
+          }
+          a {
+            display: inline-block;
+            text-align: center;
+            font-size: 1.8rem;
+            padding: 0 0.45rem 0.45rem;
+            &::before {
+              display: block;
+              content: attr(title);
+              font-weight: bold;
+              height: 0;
+              overflow: hidden;
+              visibility: hidden;
+            }
+          }
         }
       }
+
     }
     .video-content__navigation {
       padding: 0;
@@ -67,38 +84,3 @@
   }
 }
 
-ul {
-  display: flex;
-  text-decoration: none;
-  padding: 0;
-
-  li {
-    height: 2.8rem;
-    display: inline-block;
-    text-decoration: none;
-    margin-right: 6rem;
-    font-size: 0;
-    &:hover {
-      a {
-        color: $font-color__navigation-link_active;
-        font-weight: bold;
-        border-bottom: 2px solid $border-color__active;
-        border-radius: 2px;
-      }
-    }
-    a {
-      display: inline-block;
-      text-align: center;
-      font-size: 1.8rem;
-      padding: 0 0.45rem 0.45rem;
-      &::before {
-        display: block;
-        content: attr(title);
-        font-weight: bold;
-        height: 0;
-        overflow: hidden;
-        visibility: hidden;
-      }
-    }
-  }
-}
