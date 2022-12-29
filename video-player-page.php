@@ -231,6 +231,18 @@
                     <h1>Dude You Re Getting A Telescope</h1>
                     <p datatype="content-views">123k views</p>
                 </div>
+                <ul>
+                    <li><a href="#"><img src="assets/img/video-icons/like.svg" alt="">123K</a></li>
+                    <li><a href="#"><img src="assets/img/video-icons/dislike.svg" alt="">435K</a></li>
+                    <li><a href="#"><img src="assets/img/video-icons/share.svg" alt="">Share</a></li>
+                    <li class="menu">
+                        <a href="#">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </a>
+                    </li>
+                </ul>
 
             </div>
         </div>
