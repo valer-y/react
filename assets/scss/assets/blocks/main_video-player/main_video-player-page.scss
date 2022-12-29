@@ -1,0 +1,20 @@
+.video-player-block {
+  aside {
+    display: none;
+  }
+}
+
+main.video-player-block {
+  display: flex;
+  padding: 9rem 7rem 0 8rem;
+  .current-video {
+    padding: 0 2rem 0 0;
+    video {
+      border-radius: 1.4rem;
+    }
+  }
+  .next-video {
+    width: 39rem;
+    padding: 0 0 0 2rem;
+  }
+}

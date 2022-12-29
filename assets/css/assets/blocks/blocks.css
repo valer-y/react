@@ -666,6 +666,25 @@ main {
   padding-top: 8.4rem;
 }
 
+.video-player-block aside {
+  display: none;
+}
+
+main.video-player-block {
+  display: flex;
+  padding: 9rem 7rem 0 8rem;
+}
+main.video-player-block .current-video {
+  padding: 0 2rem 0 0;
+}
+main.video-player-block .current-video video {
+  border-radius: 1.4rem;
+}
+main.video-player-block .next-video {
+  width: 39rem;
+  padding: 0 0 0 2rem;
+}
+
 /* Font-colors */
 /* Search-form */
 /* Links */
