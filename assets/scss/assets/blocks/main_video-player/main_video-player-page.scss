@@ -1,0 +1,72 @@
+@import "../../typography/font-colors";
+@import "../../colors/colors";
+
+.video-player-block {
+  aside {
+    display: none;
+  }
+}
+
+main.video-player-block {
+  display: flex;
+  padding: 9rem 7rem 0 8rem;
+  .current-video {
+    padding: 0 2rem 0 0;
+    video {
+      border-radius: 1.4rem;
+    }
+    .current-video__description {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 0;
+      border-bottom: 1px solid $color_border-default;
+      h1 {
+        font-size: 3.6rem;
+        margin-bottom: 1.4rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+      ul{
+        display: flex;
+        height: 4rem;
+        margin: 0;
+        position: relative;
+        top: 24px;
+        li{
+          display: flex;
+          font-size: 1.6rem;
+          align-items: center;
+          margin-right: 1rem;
+          padding: 1rem 2rem;
+          background-color: #FAFAFA;
+          border-radius: 2rem;
+          &:last-child {
+            margin: 0;
+          }
+          a {
+            display: flex;
+            color: $font-color_bold;
+            img{
+              margin-right: 0.8rem;
+            }
+            div{
+              width: 0.6rem;
+              height: 0.6rem;
+              background-color: $font-color_bold;
+              border-radius: 50%;
+              margin-right: 0.5rem;
+            }
+            div:last-child {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .next-video {
+    width: 39rem;
+    padding: 0 0 0 2rem;
+  }
+}

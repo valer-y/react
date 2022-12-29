@@ -1190,6 +1190,82 @@ main {
 /* Search-form */
 /* Links */
 /* Borders */
+/* Alerts and Notifications */
+/* Borders */
+/* Search form */
+/* BG */
+.video-player-block aside {
+  display: none;
+}
+
+main.video-player-block {
+  display: flex;
+  padding: 9rem 7rem 0 8rem;
+}
+main.video-player-block .current-video {
+  padding: 0 2rem 0 0;
+}
+main.video-player-block .current-video video {
+  border-radius: 1.4rem;
+}
+main.video-player-block .current-video .current-video__description {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid #C2C2C2;
+}
+main.video-player-block .current-video .current-video__description h1 {
+  font-size: 3.6rem;
+  margin-bottom: 1.4rem;
+}
+main.video-player-block .current-video .current-video__description p {
+  font-size: 2rem;
+}
+main.video-player-block .current-video .current-video__description ul {
+  display: flex;
+  height: 4rem;
+  margin: 0;
+  position: relative;
+  top: 24px;
+}
+main.video-player-block .current-video .current-video__description ul li {
+  display: flex;
+  font-size: 1.6rem;
+  align-items: center;
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+  background-color: #FAFAFA;
+  border-radius: 2rem;
+}
+main.video-player-block .current-video .current-video__description ul li:last-child {
+  margin: 0;
+}
+main.video-player-block .current-video .current-video__description ul li a {
+  display: flex;
+  color: #19202C;
+}
+main.video-player-block .current-video .current-video__description ul li a img {
+  margin-right: 0.8rem;
+}
+main.video-player-block .current-video .current-video__description ul li a div {
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #19202C;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+main.video-player-block .current-video .current-video__description ul li a div:last-child {
+  margin: 0;
+}
+main.video-player-block .next-video {
+  width: 39rem;
+  padding: 0 0 0 2rem;
+}
+
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Borders */
 /* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
