@@ -666,6 +666,14 @@ main {
   padding-top: 8.4rem;
 }
 
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Borders */
+/* Alerts and Notifications */
+/* Borders */
+/* Search form */
+/* BG */
 .video-player-block aside {
   display: none;
 }
@@ -679,6 +687,17 @@ main.video-player-block .current-video {
 }
 main.video-player-block .current-video video {
   border-radius: 1.4rem;
+}
+main.video-player-block .current-video .current-video__description {
+  padding: 2rem 0;
+  border-bottom: 1px solid #C2C2C2;
+}
+main.video-player-block .current-video .current-video__description h1 {
+  font-size: 3.6rem;
+  margin-bottom: 1.4rem;
+}
+main.video-player-block .current-video .current-video__description p {
+  font-size: 2rem;
 }
 main.video-player-block .next-video {
   width: 39rem;

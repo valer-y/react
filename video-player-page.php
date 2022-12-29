@@ -226,6 +226,13 @@
             <video controls>
                 <source src="assets/video/big_video.mp4" type="video/mp4">
             </video>
+            <div class="current-video__description">
+                <div class="current-video__title">
+                    <h1>Dude You Re Getting A Telescope</h1>
+                    <p datatype="content-views">123k views</p>
+                </div>
+
+            </div>
         </div>
         <div class="next-video"></div>
     </main>

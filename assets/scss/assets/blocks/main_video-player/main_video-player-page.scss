@@ -1,3 +1,6 @@
+@import "../../typography/font-colors";
+@import "../../colors/colors";
+
 .video-player-block {
   aside {
     display: none;
@@ -11,6 +14,17 @@ main.video-player-block {
     padding: 0 2rem 0 0;
     video {
       border-radius: 1.4rem;
+    }
+    .current-video__description {
+      padding: 2rem 0;
+      border-bottom: 1px solid $color_border-default;
+      h1 {
+        font-size: 3.6rem;
+        margin-bottom: 1.4rem;
+      }
+      p {
+        font-size: 2rem;
+      }
     }
   }
   .next-video {
