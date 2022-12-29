@@ -34,13 +34,13 @@
             <div class="header__search-form_mobile"></div>
         </div>
         <div class="header__user-block">
-            <a href="#" class="header__user-block__camera">
+            <a href="#" class="header__user-block__link">
                 <img src="assets/img/header/user-block/user-camera.svg" alt="user-video icon">
             </a>
-            <a href="#" class="header__user-block__options">
+            <a href="#" class="header__user-block__link">
                 <img src="assets/img/header/user-block/user-options.svg" alt="user-options icon">
             </a>
-            <a href="#" class="header__user-block__notifications">
+            <a href="#" class="header__user-block__link header__user-block__notifications">
                 <div class="notification__counter">
                     3
                 </div>
@@ -222,8 +222,8 @@
     ------------------->
 
     <main class="container">
+        <div class="channel__cover"></div>
         <section class="channel__content">
-            <div class="channel__cover"></div>
             <section class="channel__author-info">
 
                 <div class="channel__author__description">
@@ -233,6 +233,10 @@
                     <div class="author-block__text">
                         <h2 datatype="author-name">Margaret Phelps</h2>
                         <p datatype="subscribed-qty">245K subscribed</p>
+                    </div>
+                    <div class="video-content__navigation">
+                        <img src="assets/img/header/user-block/user-notifications.svg" alt="user-notifications icon">
+                        <p class="video-content__subscription-stat" style="">Subscribe 2.3m</p>
                     </div>
                 </div>
 
@@ -245,13 +249,18 @@
                                 <li><a href="" title="Home">Home</a></li>
                                 <li><a href="" title="Videos">Videos</a></li>
                                 <li><a href="" title="Playlists">Playlists</a></li>
+                                <li class="mobile-dropdown"><a href="">
+                                        <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.7624 0.798368L9.28113 0.263702C9.11428 0.0879298 8.91953 0 8.69714 0C8.47025 0 8.27771 0.0879298 8.11937 0.263702L5 3.72814L1.88063 0.263789C1.72229 0.0880173 1.52975 8.74923e-05 1.30294 8.74923e-05C1.08047 8.74923e-05 0.885722 0.0880173 0.718866 0.263789L0.243902 0.798455C0.0813008 0.978952 0 1.19523 0 1.44712C0 1.70374 0.0813796 1.91757 0.243902 2.08862L4.42231 6.72912C4.5764 6.90971 4.76886 7 5 7C5.22681 7 5.42147 6.90971 5.58399 6.72912L9.7624 2.08862C9.92075 1.91276 10 1.69893 10 1.44712C10 1.19996 9.92075 0.983764 9.7624 0.798368Z" fill="black"/>
+                                        </svg>
+                                    </a></li>
                                 <li><a href="" title="Channels">Channels</a></li>
                                 <li><a href="" title="Discussion">Discussion</a></li>
                                 <li><a href="" title="About">About</a></li>
                                 <li class="channel__navigation__search">
                                     <a href="" title="About">
                                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#C2C2C2" fill-rule="evenodd" clip-rule="evenodd" d="M17.9005 16.4865L14.3205 12.9065L14.3195 12.9055C16.9095 9.569 16.4594 4.79387 13.2916 2.00007C10.1238 -0.793727 5.32983 -0.643497 2.34317 2.34317C-0.643497 5.32983 -0.793727 10.1238 2.00007 13.2916C4.79387 16.4594 9.569 16.9095 12.9055 14.3195L16.4855 17.8995C16.7364 18.1596 17.1081 18.2642 17.4578 18.1729C17.8075 18.0816 18.0808 17.8088 18.1725 17.4592C18.2643 17.1097 18.1603 16.7378 17.9005 16.4865ZM13.1967 11.0005C12.1249 12.8569 10.1441 14.0005 8.00052 14.0005C4.68681 14.0005 2.00052 11.3142 2.00052 8.00052C2.00052 4.68681 4.68681 2.00052 8.00052 2.00052C10.1441 2.00052 12.1249 3.14411 13.1967 5.00052C14.2685 6.85693 14.2685 9.14411 13.1967 11.0005Z" />
+                                            <path fill="black" fill-rule="evenodd" clip-rule="evenodd" d="M17.9005 16.4865L14.3205 12.9065L14.3195 12.9055C16.9095 9.569 16.4594 4.79387 13.2916 2.00007C10.1238 -0.793727 5.32983 -0.643497 2.34317 2.34317C-0.643497 5.32983 -0.793727 10.1238 2.00007 13.2916C4.79387 16.4594 9.569 16.9095 12.9055 14.3195L16.4855 17.8995C16.7364 18.1596 17.1081 18.2642 17.4578 18.1729C17.8075 18.0816 18.0808 17.8088 18.1725 17.4592C18.2643 17.1097 18.1603 16.7378 17.9005 16.4865ZM13.1967 11.0005C12.1249 12.8569 10.1441 14.0005 8.00052 14.0005C4.68681 14.0005 2.00052 11.3142 2.00052 8.00052C2.00052 4.68681 4.68681 2.00052 8.00052 2.00052C10.1441 2.00052 12.1249 3.14411 13.1967 5.00052C14.2685 6.85693 14.2685 9.14411 13.1967 11.0005Z" />
                                         </svg>
                                     </a>
                                 </li>
@@ -346,6 +355,10 @@
                         <div class="video-time">
                             4:15
                         </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                     </div>
                     <h4>A Brief History Of Creation</h4>
                     <div class="content-info">

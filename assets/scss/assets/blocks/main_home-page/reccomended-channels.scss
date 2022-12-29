@@ -14,3 +14,9 @@
     column-gap: 4rem;
   }
 }
+
+.subscriptions.recommended__channels {
+  @media (max-width: $lg) {
+    display: none;
+  }
+}

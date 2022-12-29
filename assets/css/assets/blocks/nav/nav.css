@@ -46,7 +46,7 @@ input::placeholder {
 .nav-menu {
   padding: 0 0 6rem 3.3rem;
 }
-@media (max-width: 320px) {
+@media (max-width: 838px) {
   .nav-menu {
     display: flex;
     padding: 0;
@@ -84,7 +84,7 @@ input::placeholder {
 .nav-menu a:hover div, .nav-menu a:active div {
   color: inherit;
 }
-@media (max-width: 320px) {
+@media (max-width: 838px) {
   .nav-menu a {
     flex-direction: column;
     margin: 0;

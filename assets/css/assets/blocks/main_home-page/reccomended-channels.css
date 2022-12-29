@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   .recommended__channels {
     display: none;
   }
@@ -9,6 +9,12 @@
   display: inline-grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 4rem;
+}
+
+@media (max-width: 1050px) {
+  .subscriptions.recommended__channels {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=reccomended-channels.css.map */
