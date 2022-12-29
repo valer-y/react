@@ -4,7 +4,7 @@
 
 .nav-menu {
   padding: 0 0 6rem 3.3rem;
-  @media (max-width: $xs) {
+  @media (max-width: $md) {
     display: flex;
     padding: 0;
     overflow: hidden;
@@ -41,7 +41,7 @@
       }
     }
 
-    @media (max-width: $xs) {
+    @media (max-width: $md) {
       flex-direction: column;
       margin: 0;
       &:nth-child(1n+5){

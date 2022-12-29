@@ -1,3 +1,5 @@
+@import "../breakpoints/breakpoints";
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -10,6 +12,10 @@
 
 .content__section {
   margin: 0 0 5rem 0;
+  @media (max-width: $sm) {
+    position: relative;
+    top: -9rem;
+  }
 }
 
 @import "channel_info";

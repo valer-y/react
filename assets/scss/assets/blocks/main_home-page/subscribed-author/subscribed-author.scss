@@ -4,9 +4,13 @@
 
 .subscribed-author {
   padding: 2.9rem 0 0 0;
+
+  @media (max-width: $lg) {
+    padding: 1.8rem;
+  }
   .channel__info {
 
-    @media (max-width: $xs) {
+    @media (max-width: $sm) {
       display: none;
     }
 
@@ -18,12 +22,16 @@
     display: inline-grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 4rem;
-    @media (max-width: $xs) {
+    @media (max-width: $sm) {
+      width: 35rem;
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       grid-template-columns: none;
       margin: 0 auto;
+    }
+    @media (max-width: $xs) {
+      width: 28.8rem;
     }
   }
 

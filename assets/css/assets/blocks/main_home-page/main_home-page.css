@@ -47,7 +47,12 @@ input::placeholder {
 .subscribed-author {
   padding: 2.9rem 0 0 0;
 }
-@media (max-width: 320px) {
+@media (max-width: 1050px) {
+  .subscribed-author {
+    padding: 1.8rem;
+  }
+}
+@media (max-width: 576px) {
   .subscribed-author .channel__info {
     display: none;
   }
@@ -59,13 +64,19 @@ input::placeholder {
   grid-template-columns: repeat(6, 1fr);
   column-gap: 4rem;
 }
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .subscribed-author .subscribed-author__content {
+    width: 35rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     grid-template-columns: none;
     margin: 0 auto;
+  }
+}
+@media (max-width: 390px) {
+  .subscribed-author .subscribed-author__content {
+    width: 28.8rem;
   }
 }
 
@@ -113,7 +124,7 @@ input::placeholder {
   line-height: 2.2rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   .recommended {
     display: none;
   }
@@ -130,7 +141,7 @@ input::placeholder {
   column-gap: 4rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   .recommended__channels {
     display: none;
   }
@@ -143,8 +154,14 @@ input::placeholder {
   column-gap: 4rem;
 }
 
+@media (max-width: 1050px) {
+  .subscriptions.recommended__channels {
+    display: none;
+  }
+}
+
 main {
-  overflow: auto;
+  overflow: hidden;
   padding-top: 8.4rem;
 }
 

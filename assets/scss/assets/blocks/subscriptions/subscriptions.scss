@@ -28,9 +28,11 @@
         }
       }
       .subscriptions__link__text {
-        color: $font-color__navigation-link
+        color: $font-color__navigation-link;
+        @media (max-width: $xl) {
+          line-height: 1.5;
+        }
       }
-
     }
   }
 

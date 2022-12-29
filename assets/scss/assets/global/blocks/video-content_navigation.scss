@@ -1,6 +1,6 @@
 @import "../../typography/font-colors";
 @import "../../colors/colors";
-
+@import "../breakpoints/breakpoints";
 
 .video-content__navigation {
   display: flex;
@@ -8,6 +8,12 @@
   align-self: flex-end;
   align-items: end;
   position: relative;
+
+  @media (max-width: $xl) {
+    padding: 0;
+  }
+
+
   .video-content__subscription-stat {
     line-height: 1.5;
     padding: 0.5rem 2rem;
@@ -17,6 +23,9 @@
     color: $font-color_in-notification;
     position: relative;
     bottom: -0.5rem;
+    @media (max-width: $sm) {
+      font-size: 1.2rem;
+    }
   }
   .move-left, .move-right {
     padding: 0.8rem;
@@ -25,6 +34,42 @@
     border-radius: 50%;
     background-color: #c2c2c2;
     margin-right: 1rem;
+  }
+}
+
+.channel__author__description {
+  .video-content__navigation {
+    display: flex;
+    align-self: center;
+    justify-self: end;
+    padding: unset;
+    margin-left: auto;
+    @media (max-width: $xxll) {
+      padding: 0 5.2rem 0 0;
+    }
+
+    @media (max-width: $lg) {
+      padding: 0;
+    }
+
+    @media (max-width: $sm) {
+      margin: 2rem auto 0 0;
+    }
+
+    p {
+      margin: 0;
+    }
+    img {
+      display: flex;
+      align-self: center;
+      margin: 0 2rem 0 0;
+      @media (max-width: $lg) {
+        display: none;
+      }
+    }
+    .video-content__subscription-stat {
+      position: unset;
+    }
   }
 }
 
