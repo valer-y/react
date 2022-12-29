@@ -1,6 +1,7 @@
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 /* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
@@ -8,6 +9,7 @@
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 @import url("https://use.typekit.net/jrb6nlz.css");
 * {
   font-family: "Muli", sans-serif;
@@ -15,10 +17,11 @@
   font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #19202C;
   font-weight: 700;
   margin: 0;
+  line-height: 3.4rem;
 }
 
 h1, h2 {
@@ -29,7 +32,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-h4 {
+h4, h5 {
   font-size: 1.6rem;
 }
 
@@ -37,12 +40,19 @@ p, a,
 input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
+  margin: 0;
+  line-height: 2.2rem;
 }
 
 .subscribed-author {
   padding: 2.9rem 0 0 0;
 }
-@media (max-width: 320px) {
+@media (max-width: 1050px) {
+  .subscribed-author {
+    padding: 1.8rem;
+  }
+}
+@media (max-width: 576px) {
   .subscribed-author .channel__info {
     display: none;
   }
@@ -54,8 +64,9 @@ input::placeholder {
   grid-template-columns: repeat(6, 1fr);
   column-gap: 4rem;
 }
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .subscribed-author .subscribed-author__content {
+    width: 35rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -63,26 +74,34 @@ input::placeholder {
     margin: 0 auto;
   }
 }
+@media (max-width: 390px) {
+  .subscribed-author .subscribed-author__content {
+    width: 28.8rem;
+  }
+}
 
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 /* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
 /* Search-form */
 /* Links */
+/* Borders */
 * {
   font-family: "Muli", sans-serif;
   color: #C2C2C2;
   font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #19202C;
   font-weight: 700;
   margin: 0;
+  line-height: 3.4rem;
 }
 
 h1, h2 {
@@ -93,7 +112,7 @@ h3 {
   font-size: 1.8rem;
 }
 
-h4 {
+h4, h5 {
   font-size: 1.6rem;
 }
 
@@ -101,9 +120,11 @@ p, a,
 input::placeholder {
   font-size: 1.6rem;
   text-decoration: none;
+  margin: 0;
+  line-height: 2.2rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   .recommended {
     display: none;
   }
@@ -120,7 +141,7 @@ input::placeholder {
   column-gap: 4rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   .recommended__channels {
     display: none;
   }
@@ -133,8 +154,15 @@ input::placeholder {
   column-gap: 4rem;
 }
 
+@media (max-width: 1050px) {
+  .subscriptions.recommended__channels {
+    display: none;
+  }
+}
+
 main {
-  overflow: auto;
+  overflow: hidden;
+  padding-top: 8.4rem;
 }
 
 /*# sourceMappingURL=main_home-page.css.map */

@@ -1,0 +1,84 @@
+@import "../../global/breakpoints/breakpoints";
+@import "../../typography/font-colors";
+
+.channel__navigation {
+
+  @media (max-width: $sm) {
+    margin: 0;
+  }
+
+  ul {
+    display: flex;
+    text-decoration: none;
+    padding: 0;
+
+    li {
+      height: 2.8rem;
+      display: inline-block;
+      text-decoration: none;
+      margin-right: 5.8rem;
+      font-size: 0;
+      &:last-child {
+        a {
+          height: 2.7rem;
+          width: 2.9rem;
+        }
+      }
+      &:hover {
+        a {
+          color: $font-color__navigation-link_active;
+          font-weight: bold;
+          border-bottom: 2px solid $border-color__active;
+          border-radius: 2px;
+          svg > path {
+            fill: $font-color__navigation-link_active;
+          }
+        }
+      }
+      a {
+        display: inline-block;
+        text-align: center;
+        font-size: 1.8rem;
+        padding: 0 0.45rem 0.45rem;
+        color: $font-color_black;
+        &::before {
+          display: block;
+          content: attr(title);
+          font-weight: bold;
+          height: 0;
+          overflow: hidden;
+          visibility: hidden;
+        }
+      }
+    }
+
+    .mobile-dropdown {
+      display: none;
+
+      @media (max-width: $sm) {
+        display: inline-block;
+        margin-right: 3.5rem;
+      }
+    }
+
+    @media (max-width: $xxll) {
+      margin: 1rem 0;
+      justify-content: space-between;
+      li {
+        margin-right: 0;
+      }
+    }
+
+    @media (max-width: $sm) {
+      li {
+        a {
+          font-size: 1.4rem;
+        }
+      }
+      li:nth-child(1n + 5){
+        display: none;
+      }
+    }
+
+  }
+}

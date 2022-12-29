@@ -1,0 +1,143 @@
+@import "../../global/breakpoints/breakpoints";
+@import "../../typography/font-colors";
+
+@import "author-current-video";
+@import "channel-navigation";
+
+.channel__cover {
+  height: 28rem;
+  border-radius: 1.4rem;
+  background-color: #898989;
+  width: calc(100% - 7rem);
+
+
+  @media (max-width: $lg) {
+    height: 14rem;
+    width: calc(100% - 1.8rem);
+  }
+  @media (max-width: $md) {
+    width: 100%;
+    border-radius: unset;
+  }
+  @media (max-width: $sm) {
+    height: 10rem;
+  }
+}
+
+
+.channel__content {
+  padding: 1rem 7rem 0 0;
+
+  @media (max-width: $xxll) {
+    padding-right: 3.2rem;
+  }
+
+  @media (max-width: $xxll) {
+    padding: 1rem 1.8rem 0 1.8rem;
+  }
+
+  @media (max-width: $sm) {
+    position: relative;
+    top: -7.5rem;
+  }
+
+  .channel__author-info {
+    .channel__author__description {
+      padding: 3rem 0 0 0;
+      display: flex;
+      height: auto;
+      width: auto;
+      margin: 0 0 1.5rem 0;
+      .author-block {
+        @media (max-width: $sm) {
+          img {
+            width: 7rem;
+            height: auto;
+          }
+        }
+      }
+      .author-block__text{
+        padding: 0 0 0 1.4rem;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media (max-width: $sm) {
+          padding: 0;
+          h2 {
+            font-size: 2rem;
+          }
+          p {
+            font-size: 1.3rem;
+          }
+        }
+      }
+      @media (max-width: $sm) {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .author-content__block {
+      margin-bottom: 3rem;
+
+      @media (max-width: $sm) {
+        margin-bottom: 0;
+      }
+
+      .author-content {
+        margin: 0 6rem 0 0;
+        @media (max-width: $xxll) {
+          width: 83rem
+        }
+        @media (max-width: $lg) {
+          margin: 0 3rem 0 0;
+        }
+        @media (max-width: $sm) {
+          margin: 0;
+        }
+      }
+
+      /** Recomended channels **/
+      .recommended__channels {
+        width: 22rem;
+        margin-left: auto;
+      }
+      .subscriptions {
+        padding: 0;
+        h4{
+          margin: 1rem 0 3rem 0;
+          height: 2.8rem;
+          display: inline-flex;
+          align-items: end;
+          font-weight: normal;
+          color: $font-color_main;
+        }
+        .subscriptions__list {
+          .subscriptions__link {
+            margin-bottom: 3rem;
+            .subscriptions__link__icon {
+              img {
+                width: 5rem;
+                height: auto;
+                margin-right: 2rem;
+              }
+            }
+            .subscriptions__link__text {
+              font-size: 1.8rem;
+              color: $font-color_bold;
+            }
+          }
+        }
+
+        @media (max-width: $xxll) {
+          h4 {
+            height: auto;
+            line-height: 1.5;
+          }
+        }
+
+      }
+    }
+  }
+
+}

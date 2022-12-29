@@ -8,7 +8,7 @@
     padding-top: calc(1.6rem + 8.4rem);;
     background-color: white;
     z-index: 10;
-    @media (max-width: $xs) {
+    @media (max-width: $md) {
       width: 100%;
       border-top: 1px solid #f1f1f1;
       position: fixed;
