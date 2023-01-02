@@ -94,112 +94,7 @@
                     Library
                 </div>
             </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/scroll.svg" alt="history" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    History
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/clocks.svg" alt="watch later" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Watch later
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/star.svg" alt="favorites" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Favorites
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/heart.svg" alt="liked videos" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Liked videos
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/music.svg" alt="music" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Music
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/games.svg" alt="games" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Games
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/chevron-down.svg" alt="show more" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Show more
-                </div>
-            </a>
-
         </nav>
-
-        <!-- **  Subscriptions ** -->
-
-        <section class="subscriptions container">
-            <h3>Subscriptions</h3>
-            <div class="subscriptions__list">
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/francis.png" alt="francis" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Nora Francis
-                    </div>
-                </a>
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/briggs.png" alt="brigs" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Belle Brigs
-                    </div>
-                </a>
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/cortez.png" alt="cortez" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Eunice Cortez
-                    </div>
-                </a>
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/hanson.png" alt="hanson" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Emma Hanson
-                    </div>
-                </a>
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/leah.png" alt="berry" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Leah Berry
-                    </div>
-                </a>
-            </div>
-        </section>
 
         <!-- **  Settings ** -->
 
@@ -221,12 +116,13 @@
        - Author videos carousel
     ------------------->
 
+
     <main class="container video-player-block">
         <div class="current-video container">
             <video controls>
                 <source src="assets/video/big_video.mp4" type="video/mp4">
             </video>
-            <div class="current-video-title__block">
+            <div class="current-video-title__block mobile">
                 <div class="current-video-title">
                     <h1>Dude You Re Getting A Telescope</h1>
                     <p datatype="content-views">123k views</p>
@@ -245,7 +141,7 @@
                 </ul>
 
             </div>
-            <div class="current-video__description container_flex">
+            <div class="current-video__description mobile container_flex">
                 <img src="assets/img/subscriptions/hanson.png" alt="" class="channel-icon">
                 <div class="current-video-description">
                     <h2>Food & Drink</h2>
@@ -261,7 +157,7 @@
 
         </div>
 
-        <div class="next-video__block">
+        <div class="next-video__block mobile">
             <div class="next-video__block__header">
                 <h2>Next</h2>
                 <div>
