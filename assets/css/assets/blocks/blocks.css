@@ -511,7 +511,7 @@ header .container .header__user-block .header__user-block__user-profile img {
 /* Search-form */
 /* Links */
 /* Borders */
-/* Importing font: Mulish - 300 / 400 / 700 / 800
+/* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
@@ -519,7 +519,7 @@ header .container .header__user-block .header__user-block__user-profile img {
 /* Links */
 /* Borders */
 * {
-  font-family: "Mulish", sans-serif;
+  font-family: "Muli", sans-serif;
   color: #C2C2C2;
   font-weight: 400;
 }
@@ -591,7 +591,7 @@ input::placeholder {
 /* Search-form */
 /* Links */
 /* Borders */
-/* Importing font: Mulish - 300 / 400 / 700 / 800
+/* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
@@ -599,7 +599,7 @@ input::placeholder {
 /* Links */
 /* Borders */
 * {
-  font-family: "Mulish", sans-serif;
+  font-family: "Muli", sans-serif;
   color: #C2C2C2;
   font-weight: 400;
 }
@@ -1273,7 +1273,7 @@ main.video-player-block .next-video__block .next-video .content__tab .content-in
 /* Search-form */
 /* Links */
 /* Borders */
-/* Importing font: Mulish - 300 / 400 / 700 / 800
+/* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
@@ -1281,7 +1281,7 @@ main.video-player-block .next-video__block .next-video .content__tab .content-in
 /* Links */
 /* Borders */
 * {
-  font-family: "Mulish", sans-serif;
+  font-family: "Muli", sans-serif;
   color: #C2C2C2;
   font-weight: 400;
 }
