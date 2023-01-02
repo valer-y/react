@@ -670,6 +670,209 @@ main {
 /* Search-form */
 /* Links */
 /* Borders */
+/* Alerts and Notifications */
+/* Borders */
+/* Search form */
+/* BG */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 28px;
+  margin: 0 0 0 1.2rem;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.switch input:checked + .slider {
+  background-color: #FAFAFA;
+}
+.switch input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+  background-color: #2196F3;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.237602);
+}
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px #FAFAFA;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F2F2F2;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.237602);
+}
+.slider.round {
+  border-radius: 24px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.video-player-block aside {
+  display: none;
+}
+
+main.video-player-block {
+  display: flex;
+  padding: 9rem 7rem 5rem 8rem;
+}
+main.video-player-block .current-video {
+  padding: 0 2rem 0 0;
+}
+main.video-player-block .current-video video {
+  width: 100%;
+  object-fit: cover;
+  height: 700px;
+  border-radius: 1.4rem;
+}
+main.video-player-block .current-video .current-video-title__block {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid #C2C2C2;
+}
+main.video-player-block .current-video .current-video-title__block h1 {
+  font-size: 3.6rem;
+  margin-bottom: 1.4rem;
+}
+main.video-player-block .current-video .current-video-title__block p {
+  font-size: 2rem;
+}
+main.video-player-block .current-video .current-video-title__block ul {
+  display: flex;
+  height: 4rem;
+  margin: 0;
+  position: relative;
+  top: 24px;
+}
+main.video-player-block .current-video .current-video-title__block ul li {
+  display: flex;
+  font-size: 1.6rem;
+  align-items: center;
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+  background-color: #FAFAFA;
+  border-radius: 2rem;
+}
+main.video-player-block .current-video .current-video-title__block ul li:last-child {
+  margin: 0;
+}
+main.video-player-block .current-video .current-video-title__block ul li a {
+  display: flex;
+  color: #19202C;
+}
+main.video-player-block .current-video .current-video-title__block ul li a img {
+  margin-right: 0.8rem;
+}
+main.video-player-block .current-video .current-video-title__block ul li a div {
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #19202C;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+main.video-player-block .current-video .current-video-title__block ul li a div:last-child {
+  margin: 0;
+}
+main.video-player-block .current-video .current-video__description {
+  padding: 4rem 0 0 0;
+}
+main.video-player-block .current-video .current-video__description img {
+  width: 8rem;
+  height: 8rem;
+}
+main.video-player-block .current-video .current-video__description .current-video-description {
+  width: 82rem;
+  padding: 0 0 0 1.2rem;
+}
+main.video-player-block .current-video .current-video__description .current-video-description .published-date {
+  font-size: 1.3rem;
+}
+main.video-player-block .current-video .current-video__description .current-video-description .vide-description__text {
+  line-height: 1.5;
+  color: #000000;
+  margin: 1.4rem 0;
+}
+main.video-player-block .current-video .current-video__description .current-video-description .show-more {
+  font-size: 2rem;
+}
+main.video-player-block .current-video .current-video__description .video-content__navigation {
+  margin: 0 0 0 auto;
+  padding: 0;
+  align-self: start;
+}
+main.video-player-block .current-video .current-video__description .video-content__navigation .video-content__subscription-stat {
+  margin: 0;
+  position: unset;
+}
+main.video-player-block .next-video__block {
+  max-height: 105rem;
+  overflow-y: hidden;
+  width: 47.5rem;
+  padding: 0 0 0 2rem;
+}
+main.video-player-block .next-video__block .next-video__block__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2.5rem 0;
+}
+main.video-player-block .next-video__block .next-video__block__header h2 {
+  font-size: 3.6rem;
+}
+main.video-player-block .next-video__block .next-video__block__header div {
+  display: flex;
+  align-items: center;
+}
+main.video-player-block .next-video__block .next-video__block__header div p {
+  font-weight: 700;
+  color: #19202C;
+}
+main.video-player-block .next-video__block .next-video {
+  display: inline-grid;
+  grid-template-rows: repeat(6, 1fr);
+  row-gap: 3rem;
+}
+main.video-player-block .next-video__block .next-video .content__tab .video-content {
+  width: 100%;
+  height: 21rem;
+  margin: 0 0 1.2rem 0;
+}
+main.video-player-block .next-video__block .next-video .content__tab span {
+  font-size: 1.8rem;
+}
+main.video-player-block .next-video__block .next-video .content__tab .content-info p {
+  font-size: 1.8rem;
+}
+main.video-player-block .next-video__block .next-video .content__tab .content-info p:after {
+  content: "";
+}
+
+/* Font-colors */
+/* Search-form */
+/* Links */
+/* Borders */
 /* Importing font: Muli - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
