@@ -222,12 +222,12 @@
     ------------------->
 
     <main class="container video-player-block">
-        <div class="current-video">
+        <div class="current-video container">
             <video controls>
                 <source src="assets/video/big_video.mp4" type="video/mp4">
             </video>
-            <div class="current-video__description">
-                <div class="current-video__title">
+            <div class="current-video-title__block">
+                <div class="current-video-title">
                     <h1>Dude You Re Getting A Telescope</h1>
                     <p datatype="content-views">123k views</p>
                 </div>
@@ -245,8 +245,109 @@
                 </ul>
 
             </div>
+            <div class="current-video__description container_flex">
+                <img src="assets/img/subscriptions/hanson.png" alt="" class="channel-icon">
+                <div class="current-video-description">
+                    <h2>Food & Drink</h2>
+                    <p class="published-date">Published on 14 Jun 2019</p>
+                    <p class="vide-description__text">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy; it is based on a number of factors, including ad placement, demographic, even the consumer’s mood when they see your ad. </p>
+                    <a href="" class="show-more">Show more</a>
+                </div>
+                <div class="video-content__navigation">
+                    <p class="video-content__subscription-stat" style="">Subscribe 2.3m</p>
+                </div>
+
+            </div>
+
         </div>
-        <div class="next-video"></div>
+
+        <div class="next-video__block">
+            <div class="next-video__block__header">
+                <h2>Next</h2>
+                <div>
+                    <p>AUTOPLAY</p>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="next-video">
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+                    <h2>A Brief History Of Creation</h2>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                        </div>
+                        <span datatype="content-category-name">Food & Drink</>
+                    </div>
+                </a>
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+                    <h2>A Brief History Of Creation</h2>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                        </div>
+                        <span datatype="content-category-name">Food & Drink</>
+                    </div>
+                </a>
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+                    <h2>A Brief History Of Creation</h2>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                        </div>
+                        <span datatype="content-category-name">Food & Drink</>
+                    </div>
+                </a>
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <div class="video-time">
+                            4:15
+                        </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+                    <h2>A Brief History Of Creation</h2>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                        </div>
+                        <span datatype="content-category-name">Food & Drink</>
+                    </div>
+                </a>
+            </div>
+        </div>
     </main>
 
 </section>
