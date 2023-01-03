@@ -50,6 +50,11 @@
                 <img src="assets/img/header/user-block/Userpic.png" alt="user icon">
             </a>
         </div>
+        <div class="header-options">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
 </header>
 
@@ -94,112 +99,7 @@
                     Library
                 </div>
             </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/scroll.svg" alt="history" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    History
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/clocks.svg" alt="watch later" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Watch later
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/star.svg" alt="favorites" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Favorites
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/heart.svg" alt="liked videos" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Liked videos
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/music.svg" alt="music" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Music
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/games.svg" alt="games" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Games
-                </div>
-            </a>
-            <a href="#" class="nav-menu__link">
-                <div class="nav-menu__link__icon">
-                    <img src="assets/img/nav/chevron-down.svg" alt="show more" class="nav-menu__link__img">
-                </div>
-                <div class="nav-menu__link__text">
-                    Show more
-                </div>
-            </a>
-
         </nav>
-
-        <!-- **  Subscriptions ** -->
-
-        <section class="subscriptions container">
-            <h3>Subscriptions</h3>
-            <div class="subscriptions__list">
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/francis.png" alt="francis" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Nora Francis
-                    </div>
-                </a>
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/briggs.png" alt="brigs" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Belle Brigs
-                    </div>
-                </a>
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/cortez.png" alt="cortez" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Eunice Cortez
-                    </div>
-                </a>
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/hanson.png" alt="hanson" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Emma Hanson
-                    </div>
-                </a>
-                <a href="#" class="subscriptions__link">
-                    <div class="subscriptions__link__icon">
-                        <img src="assets/img/subscriptions/leah.png" alt="berry" class="subscriptions__link__img">
-                    </div>
-                    <div class="subscriptions__link__text">
-                        Leah Berry
-                    </div>
-                </a>
-            </div>
-        </section>
 
         <!-- **  Settings ** -->
 
@@ -221,14 +121,20 @@
        - Author videos carousel
     ------------------->
 
+
     <main class="container video-player-block">
         <div class="current-video container">
             <video controls>
                 <source src="assets/video/big_video.mp4" type="video/mp4">
             </video>
-            <div class="current-video-title__block">
+            <div class="current-video-title__block mobile">
                 <div class="current-video-title">
-                    <h1>Dude You Re Getting A Telescope</h1>
+                    <div class="current-video__header">
+                        <h1>Dude You Re Getting A Telescope</h1>
+                        <svg class="video-title__dropdown" width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.7624 0.798368L9.28113 0.263702C9.11428 0.0879298 8.91953 0 8.69714 0C8.47025 0 8.27771 0.0879298 8.11937 0.263702L5 3.72814L1.88063 0.263789C1.72229 0.0880173 1.52975 8.74923e-05 1.30294 8.74923e-05C1.08047 8.74923e-05 0.885722 0.0880173 0.718866 0.263789L0.243902 0.798455C0.0813008 0.978952 0 1.19523 0 1.44712C0 1.70374 0.0813796 1.91757 0.243902 2.08862L4.42231 6.72912C4.5764 6.90971 4.76886 7 5 7C5.22681 7 5.42147 6.90971 5.58399 6.72912L9.7624 2.08862C9.92075 1.91276 10 1.69893 10 1.44712C10 1.19996 9.92075 0.983764 9.7624 0.798368Z" fill="black"/>
+                        </svg>
+                    </div>
                     <p datatype="content-views">123k views</p>
                 </div>
                 <ul>
@@ -245,11 +151,12 @@
                 </ul>
 
             </div>
-            <div class="current-video__description container_flex">
-                <img src="assets/img/subscriptions/hanson.png" alt="" class="channel-icon">
+            <div class="current-video__description mobile container_flex">
+                <img src="assets/img/subscriptions/channel-logo.png" alt="" class="channel-icon">
                 <div class="current-video-description">
                     <h2>Food & Drink</h2>
                     <p class="published-date">Published on 14 Jun 2019</p>
+                    <p class="subscribed-qty">245K subscribed</p>
                     <p class="vide-description__text">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy; it is based on a number of factors, including ad placement, demographic, even the consumer’s mood when they see your ad. </p>
                     <a href="" class="show-more">Show more</a>
                 </div>
@@ -261,7 +168,7 @@
 
         </div>
 
-        <div class="next-video__block">
+        <div class="next-video__block mobile">
             <div class="next-video__block__header">
                 <h2>Next</h2>
                 <div>
