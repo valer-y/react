@@ -256,7 +256,7 @@ summary {
 }
 
 /* !End of normalizer */
-/* Importing font: Muli - 300 / 400 / 700 / 800
+/* Importing font: Mulish - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
@@ -264,7 +264,7 @@ summary {
 /* Links */
 /* Borders */
 * {
-  font-family: "Muli", sans-serif;
+  font-family: "Mulish", sans-serif;
   color: #C2C2C2;
   font-weight: 400;
 }
@@ -583,6 +583,7 @@ header .container {
 }
 @media (max-width: 576px) {
   header .container {
+    padding: 0;
     height: 5rem;
   }
 }
@@ -737,6 +738,11 @@ header .container .header__user-block .header__user-block__user-profile {
   header .container .header__user-block .header__user-block__user-profile img {
     width: 3rem;
     height: 3rem;
+  }
+}
+@media (max-width: 390px) {
+  header .container .header__user-block .header__user-block__user-profile {
+    display: none;
   }
 }
 header .container .header__user-block .header__user-block__user-profile img {
@@ -1025,7 +1031,7 @@ header .container .header__user-block .header__user-block__user-profile img {
 /* Search-form */
 /* Links */
 /* Borders */
-/* Importing font: Muli - 300 / 400 / 700 / 800
+/* Importing font: Mulish - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
@@ -1033,7 +1039,7 @@ header .container .header__user-block .header__user-block__user-profile img {
 /* Links */
 /* Borders */
 * {
-  font-family: "Muli", sans-serif;
+  font-family: "Mulish", sans-serif;
   color: #C2C2C2;
   font-weight: 400;
 }
@@ -1105,7 +1111,7 @@ input::placeholder {
 /* Search-form */
 /* Links */
 /* Borders */
-/* Importing font: Muli - 300 / 400 / 700 / 800
+/* Importing font: Mulish - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
@@ -1113,7 +1119,7 @@ input::placeholder {
 /* Links */
 /* Borders */
 * {
-  font-family: "Muli", sans-serif;
+  font-family: "Mulish", sans-serif;
   color: #C2C2C2;
   font-weight: 400;
 }
@@ -1219,6 +1225,31 @@ main {
 .switch input:focus + .slider {
   box-shadow: 0 0 1px #FAFAFA;
 }
+@media (max-width: 390px) {
+  .switch {
+    width: 30px;
+    height: 19px;
+    margin: 0 0 0 1.2rem;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .switch input:checked + .slider {
+    background-color: #FAFAFA;
+  }
+  .switch input:checked + .slider:before {
+    -webkit-transform: translateX(12px);
+    -ms-transform: translateX(12px);
+    transform: translateX(12px);
+    background-color: #2196F3;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.237602);
+  }
+  .switch input:focus + .slider {
+    box-shadow: 0 0 1px #FAFAFA;
+  }
+}
 
 .slider {
   position: absolute;
@@ -1248,6 +1279,24 @@ main {
 }
 .slider.round:before {
   border-radius: 50%;
+}
+@media (max-width: 390px) {
+  .slider:before {
+    height: 16px;
+    width: 16px;
+    left: 1px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.237602);
+  }
+  .slider.round {
+    border-radius: 16px;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }
 }
 
 .video-player-block aside {
@@ -1293,12 +1342,31 @@ main.video-player-block .current-video .current-video-title__block {
   padding: 2rem 0;
   border-bottom: 1px solid #C2C2C2;
 }
-main.video-player-block .current-video .current-video-title__block h1 {
+@media (max-width: 390px) {
+  main.video-player-block .current-video .current-video-title__block {
+    padding: 1.5rem 0 3rem 0;
+  }
+}
+main.video-player-block .current-video .current-video-title__block .current-video-title h1 {
   font-size: 3.6rem;
   margin-bottom: 1.4rem;
 }
-main.video-player-block .current-video .current-video-title__block p {
+main.video-player-block .current-video .current-video-title__block .current-video-title p {
   font-size: 2rem;
+}
+@media (max-width: 390px) {
+  main.video-player-block .current-video .current-video-title__block .current-video-title {
+    padding: 0 0 2rem 0;
+  }
+  main.video-player-block .current-video .current-video-title__block .current-video-title h1 {
+    width: 21rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 0 0 0.4rem 0;
+  }
+  main.video-player-block .current-video .current-video-title__block .current-video-title p {
+    font-size: 1.2rem;
+  }
 }
 main.video-player-block .current-video .current-video-title__block ul {
   display: flex;
@@ -1354,9 +1422,18 @@ main.video-player-block .current-video .current-video__description img {
   width: 8rem;
   height: 8rem;
 }
+@media (max-width: 390px) {
+  main.video-player-block .current-video .current-video__description img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
 main.video-player-block .current-video .current-video__description .current-video-description {
   width: 82rem;
   padding: 0 0 0 1.2rem;
+}
+main.video-player-block .current-video .current-video__description .current-video-description .subscribed-qty {
+  display: none;
 }
 main.video-player-block .current-video .current-video__description .current-video-description .published-date {
   font-size: 1.3rem;
@@ -1368,6 +1445,24 @@ main.video-player-block .current-video .current-video__description .current-vide
 }
 main.video-player-block .current-video .current-video__description .current-video-description .show-more {
   font-size: 2rem;
+}
+@media (max-width: 390px) {
+  main.video-player-block .current-video .current-video__description .current-video-description {
+    padding: 0 0 0 1rem;
+  }
+  main.video-player-block .current-video .current-video__description .current-video-description h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 0 0 0.4rem;
+  }
+  main.video-player-block .current-video .current-video__description .current-video-description .published-date {
+    display: none;
+  }
+  main.video-player-block .current-video .current-video__description .current-video-description .subscribed-qty {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
 }
 main.video-player-block .current-video .current-video__description .video-content__navigation {
   margin: 0 0 0 auto;
@@ -1434,6 +1529,15 @@ main.video-player-block .current-video .current-video__description .video-conten
     height: 25rem;
   }
 }
+@media (max-width: 576px) {
+  main.video-player-block .current-video {
+    padding: 6rem 0 0 0;
+  }
+  main.video-player-block .current-video video {
+    border-radius: unset;
+    height: 18rem;
+  }
+}
 main.video-player-block .next-video__block {
   max-height: 105rem;
   overflow-y: hidden;
@@ -1462,9 +1566,6 @@ main.video-player-block .next-video__block .next-video__block__header div p {
   }
 }
 @media (max-width: 1400px) {
-  main.video-player-block .next-video__block {
-    width: 37.5rem;
-  }
   main.video-player-block .next-video__block .next-video__block__header h2 {
     font-size: 2.6rem;
   }
@@ -1474,6 +1575,23 @@ main.video-player-block .next-video__block .next-video__block__header div p {
   }
   main.video-player-block .next-video__block .next-video__block__header div p {
     display: none;
+  }
+}
+@media (max-width: 390px) {
+  main.video-player-block .next-video__block .next-video__block__header {
+    margin: 0 0 1.3rem 0;
+  }
+  main.video-player-block .next-video__block .next-video__block__header h2 {
+    font-size: 2rem;
+  }
+  main.video-player-block .next-video__block .next-video__block__header div p {
+    display: block;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1400px) {
+  main.video-player-block .next-video__block {
+    width: 37.5rem;
   }
 }
 @media (max-width: 1200px) {
@@ -1560,16 +1678,97 @@ main.video-player-block .next-video__block .next-video .content__tab .content-in
     font-size: 1.6rem;
   }
 }
+@media (max-width: 576px) {
+  main.video-player-block .next-video__block .next-video .content__tab {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab:nth-last-child(1), main.video-player-block .next-video__block .next-video .content__tab:nth-last-child(2) {
+    display: inline-block;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab h2 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin: 0 0 1rem 0;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab .video-content {
+    height: auto;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab span {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab .content-info p {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+}
+@media (max-width: 390px) {
+  main.video-player-block .next-video__block .next-video .content__tab {
+    margin: 0 auto;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab:nth-last-child(1), main.video-player-block .next-video__block .next-video .content__tab:nth-last-child(2) {
+    display: inline-block;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab h2 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab .video-content {
+    height: 15rem;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab span {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+  main.video-player-block .next-video__block .next-video .content__tab .content-info p {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+}
+
+.current-video__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.current-video__header .video-title__dropdown {
+  display: none;
+}
+@media (max-width: 390px) {
+  .current-video__header .video-title__dropdown {
+    display: block;
+  }
+}
 
 .mobile {
   margin: 0 1.6rem;
+}
+
+.header-options {
+  display: none;
+}
+.header-options div {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #000000;
+}
+.header-options div:nth-child(2) {
+  margin: 0.2rem 0;
+}
+@media (max-width: 390px) {
+  .header-options {
+    display: block;
+    margin: 0 0 0 3rem;
+  }
 }
 
 /* Font-colors */
 /* Search-form */
 /* Links */
 /* Borders */
-/* Importing font: Muli - 300 / 400 / 700 / 800
+/* Importing font: Mulish - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
@@ -1577,7 +1776,7 @@ main.video-player-block .next-video__block .next-video .content__tab .content-in
 /* Links */
 /* Borders */
 * {
-  font-family: "Muli", sans-serif;
+  font-family: "Mulish", sans-serif;
   color: #C2C2C2;
   font-weight: 400;
 }
@@ -1688,7 +1887,7 @@ input::placeholder {
 /* Search-form */
 /* Links */
 /* Borders */
-/* Importing font: Muli - 300 / 400 / 700 / 800
+/* Importing font: Mulish - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
 /* Font-colors */
@@ -1696,7 +1895,7 @@ input::placeholder {
 /* Links */
 /* Borders */
 * {
-  font-family: "Muli", sans-serif;
+  font-family: "Mulish", sans-serif;
   color: #C2C2C2;
   font-weight: 400;
 }

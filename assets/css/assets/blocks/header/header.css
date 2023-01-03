@@ -36,6 +36,7 @@ header .container {
 }
 @media (max-width: 576px) {
   header .container {
+    padding: 0;
     height: 5rem;
   }
 }
@@ -190,6 +191,11 @@ header .container .header__user-block .header__user-block__user-profile {
   header .container .header__user-block .header__user-block__user-profile img {
     width: 3rem;
     height: 3rem;
+  }
+}
+@media (max-width: 390px) {
+  header .container .header__user-block .header__user-block__user-profile {
+    display: none;
   }
 }
 header .container .header__user-block .header__user-block__user-profile img {
