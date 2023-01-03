@@ -206,15 +206,21 @@ main.video-player-block {
         }
       }
 
-      @media (max-width: $sm) {
+      @media (max-width: $xxl) {
         display: flex;
         flex-direction: column;
         ul {
-          justify-content: space-between;
           padding: 0;
           position: unset;
         }
       }
+
+      @media (max-width: $sm) {
+        ul {
+          justify-content: space-between;
+        }
+      }
+
     }
     .current-video__description {
       padding: 4rem 0 0 0;
@@ -267,8 +273,31 @@ main.video-player-block {
         .video-content__subscription-stat {
           margin: 0;
           position: unset;
+          min-width: 15.2rem;
+        }
+        @media (max-width: $xl) {
+          display: none;
         }
       }
+
+      @media (max-width: $lg) {
+        width: auto;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid $color_border-default;
+        align-items: center;
+        img{
+          align-self: flex-start;
+        }
+        .current-video-description {
+        }
+        .video-content__navigation {
+          display: none;
+        }
+      }
+
+
+
       @media (max-width: $sm) {
         width: auto;
         padding: 2rem 0;
