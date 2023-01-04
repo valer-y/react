@@ -2,10 +2,12 @@
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 /* Font-colors */
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 .author-current-video__block {
   padding: 4.4rem 0 0 0;
   width: 100%;
@@ -64,6 +66,7 @@
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 @media (max-width: 576px) {
   .channel__navigation {
     margin: 0;
