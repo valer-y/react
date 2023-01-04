@@ -230,6 +230,9 @@
             <section class="subscribed-author__content">
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -243,8 +246,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -258,8 +265,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -273,8 +284,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -288,8 +303,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -303,8 +322,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -336,6 +359,9 @@
             <div class="recommended__content">
                 <a class="content__tab">
                     <div class="video_medium video-content">
+                        <video>
+                            <source src="assets/video/big_video.mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -349,8 +375,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_medium video-content">
+                        <video>
+                            <source src="assets/video/big_video.mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -364,8 +394,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_medium video-content">
+                        <video>
+                            <source src="assets/video/big_video.mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -406,6 +440,9 @@
             <section class="recommended__channels__content">
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -419,8 +456,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -434,8 +475,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -449,8 +494,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -464,8 +513,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -479,8 +532,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
+
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
