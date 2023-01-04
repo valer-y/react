@@ -130,7 +130,7 @@
 }
 @media (max-width: 390px) {
   .content__tab .content-info {
-    max-width: 28.8rem;
+    width: auto;
   }
 }
 

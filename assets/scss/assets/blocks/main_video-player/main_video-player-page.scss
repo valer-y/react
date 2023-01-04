@@ -366,6 +366,10 @@ main.video-player-block {
     width: 47.5rem;
     padding: 0 0 0 2rem;
 
+    @media (max-width: $lg) {
+      padding: 0;
+    }
+
     .next-video__block__header {
       display: flex;
       justify-content: space-between;
@@ -399,6 +403,10 @@ main.video-player-block {
               display: none;
             }
           }
+      }
+      
+      @media (max-width: $lg) {
+        padding: 0 4rem 0 0;
       }
 
       @media (max-width: $xs) {
@@ -544,7 +552,8 @@ main.video-player-block {
           }
           h2 {
             font-size: 1.6rem;
-            margin: 0;
+            margin: 0 0 0.5rem 0;
+            line-height: 1;
           }
           .video-content {
             height: 15rem;

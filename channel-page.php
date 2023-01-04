@@ -477,7 +477,6 @@
                         <span datatype="content-category-name">Food & Drink</>
                     </div>
                 </a>
-
             </section>
 
         </section>
@@ -487,7 +486,5 @@
 </section>
 </body>
 </html>
-
-
 
 </section>
