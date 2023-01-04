@@ -154,7 +154,10 @@ header {
       .header__user-block__notifications {
         position: relative;
         .notification__counter {
-          display: block;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          line-height: 1;
           width: 1.8rem;
           height: 1.8rem;
           z-index: 10;
@@ -169,7 +172,6 @@ header {
           text-align: center;
           padding: 0.25rem;
           font-weight: 800;
-          line-height: 1.2;
         }
       }
       .header__user-block__user-profile {

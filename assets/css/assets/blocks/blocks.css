@@ -188,7 +188,10 @@ header .container .header__user-block .header__user-block__notifications {
   position: relative;
 }
 header .container .header__user-block .header__user-block__notifications .notification__counter {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
   width: 1.8rem;
   height: 1.8rem;
   z-index: 10;
@@ -203,7 +206,6 @@ header .container .header__user-block .header__user-block__notifications .notifi
   text-align: center;
   padding: 0.25rem;
   font-weight: 800;
-  line-height: 1.2;
 }
 header .container .header__user-block .header__user-block__user-profile {
   display: inline-block;
@@ -247,6 +249,7 @@ header .container .header__user-block .header__user-block__user-profile img {
 }
 @media (max-width: 1530px) {
   .author-current-video__block {
+    padding: 2.4rem 0 0 0;
     flex-direction: column;
     margin: 0;
   }
@@ -373,7 +376,10 @@ header .container .header__user-block .header__user-block__user-profile img {
 .channel__cover {
   height: 28rem;
   border-radius: 1.4rem;
-  background-color: #898989;
+  background-repeat: no-repeat;
+  background-image: url("../img/header/cover.png");
+  background-position: center;
+  background-size: cover;
   width: calc(100% - 7rem);
 }
 @media (max-width: 1050px) {
@@ -402,7 +408,7 @@ header .container .header__user-block .header__user-block__user-profile img {
     padding-right: 3.2rem;
   }
 }
-@media (max-width: 1530px) {
+@media (max-width: 838px) {
   .channel__content {
     padding: 1rem 1.8rem 0 1.8rem;
   }
@@ -562,6 +568,14 @@ input::placeholder {
     padding: 4rem 1.8rem 0;
     margin: 0;
   }
+  .subscribed-author.channel {
+    padding: 2.4rem 1.8rem 0;
+  }
+}
+@media (max-width: 576px) {
+  .subscribed-author.channel {
+    padding: 0 1.8rem 0;
+  }
 }
 @media (max-width: 576px) {
   .subscribed-author .channel__info {
@@ -691,6 +705,11 @@ input::placeholder {
 main {
   overflow: hidden;
   padding-top: 8.4rem;
+}
+@media (max-width: 576px) {
+  main.channel-page {
+    padding-top: 6rem;
+  }
 }
 
 /* Font-colors */

@@ -51,6 +51,14 @@ input::placeholder {
     padding: 4rem 1.8rem 0;
     margin: 0;
   }
+  .subscribed-author.channel {
+    padding: 2.4rem 1.8rem 0;
+  }
+}
+@media (max-width: 576px) {
+  .subscribed-author.channel {
+    padding: 0 1.8rem 0;
+  }
 }
 @media (max-width: 576px) {
   .subscribed-author .channel__info {

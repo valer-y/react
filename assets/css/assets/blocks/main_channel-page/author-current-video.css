@@ -8,6 +8,7 @@
 }
 @media (max-width: 1530px) {
   .author-current-video__block {
+    padding: 2.4rem 0 0 0;
     flex-direction: column;
     margin: 0;
   }
