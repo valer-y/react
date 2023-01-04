@@ -1435,10 +1435,12 @@ main.video-player-block .current-video .current-video-title__block .current-vide
 main.video-player-block .current-video .current-video-title__block .current-video-title p {
   font-size: 2rem;
 }
-@media (max-width: 390px) {
+@media (max-width: 1400px) {
   main.video-player-block .current-video .current-video-title__block .current-video-title {
     padding: 0 0 2rem 0;
   }
+}
+@media (max-width: 390px) {
   main.video-player-block .current-video .current-video-title__block .current-video-title h1 {
     width: 21rem;
     font-size: 2rem;

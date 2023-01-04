@@ -155,8 +155,12 @@ main.video-player-block {
         p {
           font-size: 2rem;
         }
-        @media (max-width: $xs) {
+        
+        @media (max-width: $xxl) {
           padding: 0 0 2rem 0;
+        }
+        
+        @media (max-width: $xs) {
           h1 {
             width: 21rem;
             font-size: 2rem;
