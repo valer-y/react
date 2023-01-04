@@ -197,6 +197,9 @@ header .container .header__user-block .header__user-block__user-profile {
   header .container .header__user-block .header__user-block__user-profile {
     display: none;
   }
+  header .container .header__user-block .header__user-block__user-profile.displayed {
+    display: unset;
+  }
 }
 header .container .header__user-block .header__user-block__user-profile img {
   width: 100%;

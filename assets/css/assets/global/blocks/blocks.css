@@ -19,6 +19,10 @@
   }
 }
 
+.displayed {
+  display: block;
+}
+
 .channel__info {
   display: flex;
   align-items: center;

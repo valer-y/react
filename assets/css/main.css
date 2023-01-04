@@ -317,6 +317,10 @@ input::placeholder {
   }
 }
 
+.displayed {
+  display: block;
+}
+
 .channel__info {
   display: flex;
   align-items: center;
@@ -745,6 +749,9 @@ header .container .header__user-block .header__user-block__user-profile {
   header .container .header__user-block .header__user-block__user-profile {
     display: none;
   }
+  header .container .header__user-block .header__user-block__user-profile.displayed {
+    display: unset;
+  }
 }
 header .container .header__user-block .header__user-block__user-profile img {
   width: 100%;
@@ -1077,7 +1084,8 @@ input::placeholder {
 }
 @media (max-width: 1050px) {
   .subscribed-author {
-    padding: 1.8rem;
+    padding: 4rem 1.8rem 0;
+    margin: 0;
   }
 }
 @media (max-width: 576px) {
@@ -1169,6 +1177,23 @@ input::placeholder {
   column-gap: 4rem;
 }
 
+.recommended.content__section {
+  padding: 0;
+}
+@media (max-width: 838px) {
+  .recommended.content__section {
+    padding: 3rem 1.8rem 0;
+  }
+}
+
+.recommended__channels {
+  padding: 0;
+}
+@media (max-width: 838px) {
+  .recommended__channels {
+    padding: 0 1.8rem;
+  }
+}
 @media (max-width: 390px) {
   .recommended__channels {
     display: none;

@@ -44,7 +44,7 @@
                 </div>
                 <img src="assets/img/header/user-block/user-notifications.svg" alt="user-notifications icon">
             </a>
-            <a href="#" class="header__user-block__user-profile">
+            <a href="#" class="header__user-block__user-profile displayed">
                 <img src="assets/img/header/user-block/Userpic.png" alt="user icon">
             </a>
         </div>

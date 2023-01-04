@@ -188,6 +188,9 @@ header {
 
         @media (max-width: $xs){
           display: none;
+          &.displayed {
+            display: unset;
+          }
         }
 
         img {
@@ -195,6 +198,7 @@ header {
           height: auto;
         }
       }
+
     }
   }
 }
