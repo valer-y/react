@@ -22,7 +22,11 @@
             <div></div>
         </a>
         <a class="header__logo" href="/">
-            <img src="assets/img/header/Logo.svg" alt="Site logo">
+            <img class="main-logo" src="assets/img/header/Logo.svg" alt="Site logo">
+            <div class="author-channel-logo">
+                <img src="assets/img/header/Logo-small.svg" alt="">
+                <h3>Margaret Phelps</h3>
+            </div>
         </a>
         <div class="header__search-form">
             <form action="#">

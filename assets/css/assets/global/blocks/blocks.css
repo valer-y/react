@@ -161,6 +161,10 @@
   align-items: end;
   position: relative;
 }
+.video-content__navigation img:hover {
+  filter: invert(100%) sepia(84%) saturate(6649%) hue-rotate(6deg) brightness(105%) contrast(117%);
+  cursor: pointer;
+}
 @media (max-width: 1200px) {
   .video-content__navigation {
     padding: 0;
@@ -228,7 +232,5 @@
 .channel__author__description .video-content__navigation .video-content__subscription-stat {
   position: unset;
 }
-
-/*/*/
 
 /*# sourceMappingURL=blocks.css.map */

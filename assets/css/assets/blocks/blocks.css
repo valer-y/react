@@ -64,7 +64,7 @@ header .container {
 @media (max-width: 576px) {
   header .container {
     padding: 0;
-    height: 5rem;
+    height: 6rem;
   }
 }
 header .container .header__burger-menu > div {
@@ -87,6 +87,23 @@ header .container .header__logo {
 @media (max-width: 576px) {
   header .container .header__logo {
     margin: 0 2.5rem 0 0;
+  }
+}
+@media (max-width: 576px) {
+  header .container .header__logo .main-logo {
+    display: none;
+  }
+}
+header .container .header__logo .author-channel-logo {
+  display: none;
+}
+@media (max-width: 576px) {
+  header .container .header__logo .author-channel-logo {
+    display: flex;
+  }
+  header .container .header__logo .author-channel-logo h3 {
+    font-size: 1.6rem;
+    margin: 0 0 0 1rem;
   }
 }
 header .container .header__search-form {

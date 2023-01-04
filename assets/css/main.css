@@ -459,6 +459,10 @@ input::placeholder {
   align-items: end;
   position: relative;
 }
+.video-content__navigation img:hover {
+  filter: invert(100%) sepia(84%) saturate(6649%) hue-rotate(6deg) brightness(105%) contrast(117%);
+  cursor: pointer;
+}
 @media (max-width: 1200px) {
   .video-content__navigation {
     padding: 0;
@@ -527,7 +531,6 @@ input::placeholder {
   position: unset;
 }
 
-/*/*/
 /* Alerts and Notifications */
 /* Borders */
 /* Search form */
@@ -594,7 +597,7 @@ header .container {
 @media (max-width: 576px) {
   header .container {
     padding: 0;
-    height: 5rem;
+    height: 6rem;
   }
 }
 header .container .header__burger-menu > div {
@@ -617,6 +620,23 @@ header .container .header__logo {
 @media (max-width: 576px) {
   header .container .header__logo {
     margin: 0 2.5rem 0 0;
+  }
+}
+@media (max-width: 576px) {
+  header .container .header__logo .main-logo {
+    display: none;
+  }
+}
+header .container .header__logo .author-channel-logo {
+  display: none;
+}
+@media (max-width: 576px) {
+  header .container .header__logo .author-channel-logo {
+    display: flex;
+  }
+  header .container .header__logo .author-channel-logo h3 {
+    font-size: 1.6rem;
+    margin: 0 0 0 1rem;
   }
 }
 header .container .header__search-form {

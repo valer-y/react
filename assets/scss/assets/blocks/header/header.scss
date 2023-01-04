@@ -30,7 +30,7 @@ header {
 
     @media (max-width: $sm) {
       padding: 0;
-      height: 5rem;
+      height: 6rem;
     }
 
     .header__burger-menu > div {
@@ -52,6 +52,26 @@ header {
 
       @media (max-width: $sm) {
         margin: 0 2.5rem 0 0;
+      }
+
+      .main-logo {
+        @media (max-width: $sm) {
+          display: none;
+        }
+      }
+
+      .author-channel-logo {
+        display: none;
+        @media (max-width: $sm) {
+          display: flex;
+          h3 {
+            font-size: 1.6rem;
+            margin: 0 0 0 1rem;
+          }
+        }
+
+
+
       }
     }
     .header__search-form {
