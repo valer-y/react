@@ -2,6 +2,7 @@
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 /* Importing font: Mulish - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
@@ -10,6 +11,7 @@
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 @import url("https://use.typekit.net/jrb6nlz.css");
 * {
   font-family: "Mulish", sans-serif;
@@ -49,7 +51,16 @@ input::placeholder {
 }
 @media (max-width: 1050px) {
   .subscribed-author {
-    padding: 1.8rem;
+    padding: 4rem 1.8rem 0;
+    margin: 0;
+  }
+  .subscribed-author.channel {
+    padding: 2.4rem 1.8rem 0;
+  }
+}
+@media (max-width: 576px) {
+  .subscribed-author.channel {
+    padding: 0 1.8rem 0;
   }
 }
 @media (max-width: 576px) {
@@ -84,6 +95,7 @@ input::placeholder {
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 /* Importing font: Mulish - 300 / 400 / 700 / 800
    Adobe Fonts https://fonts.adobe.com/my_fonts#web_projects-section
 */
@@ -91,6 +103,7 @@ input::placeholder {
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 * {
   font-family: "Mulish", sans-serif;
   color: #C2C2C2;
@@ -141,6 +154,23 @@ input::placeholder {
   column-gap: 4rem;
 }
 
+.recommended.content__section {
+  padding: 0;
+}
+@media (max-width: 838px) {
+  .recommended.content__section {
+    padding: 3rem 1.8rem 0;
+  }
+}
+
+.recommended__channels {
+  padding: 0;
+}
+@media (max-width: 838px) {
+  .recommended__channels {
+    padding: 0 1.8rem;
+  }
+}
 @media (max-width: 390px) {
   .recommended__channels {
     display: none;
@@ -163,6 +193,11 @@ input::placeholder {
 main {
   overflow: hidden;
   padding-top: 8.4rem;
+}
+@media (max-width: 576px) {
+  main.channel-page {
+    padding-top: 6rem;
+  }
 }
 
 /*# sourceMappingURL=main_home-page.css.map */

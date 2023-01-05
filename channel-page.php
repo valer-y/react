@@ -22,7 +22,11 @@
             <div></div>
         </a>
         <a class="header__logo" href="/">
-            <img src="assets/img/header/Logo.svg" alt="Site logo">
+            <img class="main-logo" src="assets/img/header/Logo.svg" alt="Site logo">
+            <div class="author-channel-logo">
+                <img src="assets/img/header/Logo-small.svg" alt="">
+                <h3>Margaret Phelps</h3>
+            </div>
         </a>
         <div class="header__search-form">
             <form action="#">
@@ -49,6 +53,11 @@
             <a href="#" class="header__user-block__user-profile">
                 <img src="assets/img/header/user-block/Userpic.png" alt="user icon">
             </a>
+        </div>
+        <div class="header-options">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     </div>
 </header>
@@ -221,14 +230,14 @@
        - Author videos carousel
     ------------------->
 
-    <main class="container">
+    <main class="container channel-page">
         <div class="channel__cover"></div>
         <section class="channel__content">
             <section class="channel__author-info">
 
                 <div class="channel__author__description">
                     <div class="author-block">
-                        <img src="assets/img/subscriptions/briggs.png" alt="">
+                        <img src="assets/img/subscriptions/francis.png" alt="">
                     </div>
                     <div class="author-block__text">
                         <h2 datatype="author-name">Margaret Phelps</h2>
@@ -269,7 +278,10 @@
                         </div>
                         <div class="author-current-video__block container_flex">
                             <a class="content__tab">
-                                <div class="video_medium video-content">
+                                <div class="video_medium video-content channel">
+                                    <video controls>
+                                        <source src="assets/video/big_video.mp4" type="video/mp4">
+                                    </video>
                                     <div class="video-time">
                                         4:15
                                     </div>
@@ -328,7 +340,7 @@
     ### Author videos carousel ###
     ------------------->
 
-        <section class="subscribed-author container content__section">
+        <section class="subscribed-author container content__section channel">
 
             <div class="channel__info">
                 <a href="#" class="channel__link">
@@ -375,6 +387,10 @@
                         <div class="video-time">
                             4:15
                         </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                     </div>
                     <h4>A Brief History Of Creation</h4>
                     <div class="content-info">
@@ -391,6 +407,10 @@
                         <div class="video-time">
                             4:15
                         </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                     </div>
                     <h4>A Brief History Of Creation</h4>
                     <div class="content-info">
@@ -407,6 +427,10 @@
                         <div class="video-time">
                             4:15
                         </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                     </div>
                     <h4>A Brief History Of Creation</h4>
                     <div class="content-info">
@@ -423,6 +447,10 @@
                         <div class="video-time">
                             4:15
                         </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                     </div>
                     <h4>A Brief History Of Creation</h4>
                     <div class="content-info">
@@ -439,6 +467,10 @@
                         <div class="video-time">
                             4:15
                         </div>
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                     </div>
                     <h4>A Brief History Of Creation</h4>
                     <div class="content-info">
@@ -449,7 +481,6 @@
                         <span datatype="content-category-name">Food & Drink</>
                     </div>
                 </a>
-
             </section>
 
         </section>
@@ -459,7 +490,5 @@
 </section>
 </body>
 </html>
-
-
 
 </section>

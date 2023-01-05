@@ -2,16 +2,19 @@
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 /* Font-colors */
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 .author-current-video__block {
   padding: 4.4rem 0 0 0;
   width: 100%;
 }
 @media (max-width: 1530px) {
   .author-current-video__block {
+    padding: 2.4rem 0 0 0;
     flex-direction: column;
     margin: 0;
   }
@@ -63,6 +66,7 @@
 /* Search-form */
 /* Links */
 /* Borders */
+/* Button */
 @media (max-width: 576px) {
   .channel__navigation {
     margin: 0;
@@ -138,7 +142,10 @@
 .channel__cover {
   height: 28rem;
   border-radius: 1.4rem;
-  background-color: #898989;
+  background-repeat: no-repeat;
+  background-image: url("../img/header/cover.png");
+  background-position: center;
+  background-size: cover;
   width: calc(100% - 7rem);
 }
 @media (max-width: 1050px) {
@@ -167,7 +174,7 @@
     padding-right: 3.2rem;
   }
 }
-@media (max-width: 1530px) {
+@media (max-width: 838px) {
   .channel__content {
     padding: 1rem 1.8rem 0 1.8rem;
   }

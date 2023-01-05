@@ -18,6 +18,10 @@
   }
 }
 
+.displayed {
+  display: block;
+}
+
 @import "channel_info";
 @import "content_tab";
 @import "video-content_navigation";

@@ -46,7 +46,9 @@
                 </div>
                 <img src="assets/img/header/user-block/user-notifications.svg" alt="user-notifications icon">
             </a>
-            <a href="#" class="header__user-block__user-profile">
+
+            <a href="#" class="header__user-block__user-profile displayed">
+
                 <img src="assets/img/header/user-block/Userpic.png" alt="user icon">
             </a>
         </div>
@@ -54,13 +56,14 @@
 </header>
 
 <section class="content-block container">
-<!------------------
-### Navigation ###
-------------------->
+    <!------------------
+    ### Navigation ###
+    ------------------->
     <aside>
-<!--
-  **  Navigation menu **
--->
+        <!--
+          **  Navigation menu **
+        -->
+
         <nav class="nav-menu">
             <a href="#" class="nav-menu__link">
                 <div class="nav-menu__link__icon">
@@ -107,7 +110,7 @@
                     <img src="assets/img/nav/clocks.svg" alt="watch later" class="nav-menu__link__img">
                 </div>
                 <div class="nav-menu__link__text">
-                   Watch later
+
                 </div>
             </a>
             <a href="#" class="nav-menu__link">
@@ -150,10 +153,8 @@
                     Show more
                 </div>
             </a>
-
         </nav>
-
-<!-- **  Subscriptions ** -->
+        <!-- **  Subscriptions ** -->
 
         <section class="subscriptions container">
             <h3>Subscriptions</h3>
@@ -201,7 +202,7 @@
             </div>
         </section>
 
-<!-- **  Settings ** -->
+        <!-- **  Settings ** -->
 
         <div class="settings">
             <div class="settings__icon">
@@ -211,18 +212,12 @@
         </div>
 
     </aside>
-
-
-<!------------------
-### Main section ###
-------------------->
-
+    <!------------------
+    ### Main section ###
+    ------------------->
     <main class="container">
-
-<!-- Subscribed author  -->
-
+        <!-- Subscribed author  -->
         <section class="subscribed-author container content__section">
-
             <div class="channel__info">
                 <a href="#" class="channel__link">
                     <div class="channel__icon">
@@ -242,12 +237,14 @@
                 </div>
             </div>
 
-    <!-- Subscribed author video section -->
-
+            <!-- Subscribed author video section -->
             <section class="subscribed-author__content">
-
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -264,6 +261,10 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -280,6 +281,10 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -296,6 +301,10 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -312,6 +321,10 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -328,6 +341,9 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -343,10 +359,8 @@
                 </a>
 
             </section>
-
         </section>
-
-<!-- Recommended content -->
+        <!-- Recommended content -->
 
         <section class="recommended content__section">
             <div class="recommended__title">
@@ -361,9 +375,11 @@
                 </div>
             </div>
             <div class="recommended__content">
-
                 <a class="content__tab">
                     <div class="video_medium video-content">
+                        <video>
+                            <source src="assets/video/big_video.mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -380,6 +396,10 @@
 
                 <a class="content__tab">
                     <div class="video_medium video-content">
+                        <video>
+                            <source src="assets/video/big_video.mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -396,6 +416,9 @@
 
                 <a class="content__tab">
                     <div class="video_medium video-content">
+                        <video>
+                            <source src="assets/video/big_video.mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -409,15 +432,12 @@
                         <span datatype="content-author-name">Dollie Blair</>
                     </div>
                 </a>
-
             </div>
-
         </section>
-
-<!-- Recommended channels -->
-
+        
+        <!-- Recommended channels -->
+        
         <section class="recommended__channels content__section">
-
             <div class="channel__info">
                 <a href="#" class="channel__link">
                     <div class="channel__icon">
@@ -438,11 +458,13 @@
                     </svg>
                 </div>
             </div>
-
             <section class="recommended__channels__content">
-
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -459,6 +481,10 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -475,6 +501,10 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -491,6 +521,11 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -507,6 +542,10 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -523,6 +562,9 @@
 
                 <a class="content__tab">
                     <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
                         <div class="video-time">
                             4:15
                         </div>
@@ -538,13 +580,8 @@
                 </a>
 
             </section>
-
         </section>
-
     </main>
 </section>
 </body>
 </html>
-
-
-

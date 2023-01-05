@@ -8,6 +8,10 @@
   align-self: flex-end;
   align-items: end;
   position: relative;
+  img:hover {
+    filter: invert(100%) sepia(84%) saturate(6649%) hue-rotate(6deg) brightness(105%) contrast(117%);
+    cursor: pointer;
+  }
 
   @media (max-width: $xl) {
     padding: 0;
@@ -72,5 +76,3 @@
     }
   }
 }
-
-/*/*/

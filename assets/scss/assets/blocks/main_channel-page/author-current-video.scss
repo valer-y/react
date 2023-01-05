@@ -1,11 +1,13 @@
 @import "../../global/breakpoints/breakpoints";
 @import "../../typography/font-colors";
 
+
 .author-current-video__block {
   padding: 4.4rem 0 0 0;
   width: 100%;
 
   @media (max-width: $xxll) {
+    padding: 2.4rem 0 0 0;
     flex-direction: column;
     margin: 0;
   }

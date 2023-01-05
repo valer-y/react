@@ -31,8 +31,13 @@
   }
   .video-content {
     border-radius: 1.4rem;
-    background-color: rgba(0, 0, 0, 0.07);
     position: relative;
+    &.channel {
+      @media (max-width: $xxll) {
+        width: auto;
+        height: 100%;
+      }
+    }
     video {
       aspect-ratio: 16 / 9;
       width: 100%;
@@ -65,16 +70,17 @@
   }
   h4 {
     margin-top: 1rem;
+    line-height: 1.5;
   }
   .content-info {
     display: flex;
     justify-content: space-between;
     span {
-      padding: 0.4rem 0 0 0;
+      padding: 0;
       font-size: 1.3rem;
     }
     @media (max-width: $xs) {
-      max-width: 28.8rem;
+      width: auto;
     }
   }
 
@@ -82,7 +88,7 @@
 
 .content_data {
   display: flex;
-  padding: 0.4rem 0 0 0;
+  padding: 0;
   p {
     font-size: 1.3rem;
     margin: 0;

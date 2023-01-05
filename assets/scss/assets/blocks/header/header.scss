@@ -30,7 +30,7 @@ header {
 
     @media (max-width: $sm) {
       padding: 0;
-      height: 5rem;
+      height: 6rem;
     }
 
     .header__burger-menu > div {
@@ -52,6 +52,26 @@ header {
 
       @media (max-width: $sm) {
         margin: 0 2.5rem 0 0;
+      }
+
+      .main-logo {
+        @media (max-width: $sm) {
+          display: none;
+        }
+      }
+
+      .author-channel-logo {
+        display: none;
+        @media (max-width: $sm) {
+          display: flex;
+          h3 {
+            font-size: 1.6rem;
+            margin: 0 0 0 1rem;
+          }
+        }
+
+
+
       }
     }
     .header__search-form {
@@ -154,7 +174,10 @@ header {
       .header__user-block__notifications {
         position: relative;
         .notification__counter {
-          display: block;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          line-height: 1;
           width: 1.8rem;
           height: 1.8rem;
           z-index: 10;
@@ -169,7 +192,6 @@ header {
           text-align: center;
           padding: 0.25rem;
           font-weight: 800;
-          line-height: 1.2;
         }
       }
       .header__user-block__user-profile {
@@ -188,6 +210,9 @@ header {
 
         @media (max-width: $xs){
           display: none;
+          &.displayed {
+            display: unset;
+          }
         }
 
         img {
@@ -195,6 +220,7 @@ header {
           height: auto;
         }
       }
+
     }
   }
 }

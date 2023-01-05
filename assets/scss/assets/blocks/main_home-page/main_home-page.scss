@@ -1,8 +1,13 @@
 @import "subscribed-author/subscribed-author";
 @import "recommended-content/recommended-content";
-@import "reccomended-channels";
+@import "recomended-channels";
 
 main {
   overflow: hidden;
   padding-top: 8.4rem;
+  &.channel-page {
+    @media (max-width: $sm) {
+      padding-top: 6rem;
+    }
+  }
 }

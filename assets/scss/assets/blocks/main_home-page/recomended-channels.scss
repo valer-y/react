@@ -1,6 +1,19 @@
 @import "../../global/breakpoints/breakpoints";
 
+
+.recommended.content__section {
+  padding: 0;
+  @media (max-width: $md) {
+    padding: 3rem 1.8rem 0;
+  }
+}
+
+
 .recommended__channels {
+  padding: 0;
+  @media (max-width: $md) {
+    padding: 0 1.8rem;
+  }
 
   @media (max-width: $xs) {
     display: none;
@@ -12,6 +25,7 @@
     display: inline-grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 4rem;
+
   }
 }
 
