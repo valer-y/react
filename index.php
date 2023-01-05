@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+
 <!------------------
 ### Header ###
 ------------------->
+
 <header>
     <div class="container">
         <a class="header__burger-menu">
@@ -44,12 +46,15 @@
                 </div>
                 <img src="assets/img/header/user-block/user-notifications.svg" alt="user-notifications icon">
             </a>
+
             <a href="#" class="header__user-block__user-profile displayed">
+
                 <img src="assets/img/header/user-block/Userpic.png" alt="user icon">
             </a>
         </div>
     </div>
 </header>
+
 <section class="content-block container">
     <!------------------
     ### Navigation ###
@@ -58,6 +63,7 @@
         <!--
           **  Navigation menu **
         -->
+
         <nav class="nav-menu">
             <a href="#" class="nav-menu__link">
                 <div class="nav-menu__link__icon">
@@ -104,7 +110,7 @@
                     <img src="assets/img/nav/clocks.svg" alt="watch later" class="nav-menu__link__img">
                 </div>
                 <div class="nav-menu__link__text">
-                    Watch later
+
                 </div>
             </a>
             <a href="#" class="nav-menu__link">
@@ -149,6 +155,7 @@
             </a>
         </nav>
         <!-- **  Subscriptions ** -->
+
         <section class="subscriptions container">
             <h3>Subscriptions</h3>
             <div class="subscriptions__list">
@@ -194,13 +201,16 @@
                 </a>
             </div>
         </section>
+
         <!-- **  Settings ** -->
+
         <div class="settings">
             <div class="settings__icon">
                 <img src="assets/img/settings/settings.svg" alt="settings">
             </div>
             Settings
         </div>
+
     </aside>
     <!------------------
     ### Main section ###
@@ -226,6 +236,7 @@
                     </svg>
                 </div>
             </div>
+
             <!-- Subscribed author video section -->
             <section class="subscribed-author__content">
                 <a class="content__tab">
@@ -233,6 +244,87 @@
                         <video>
                             <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
                         </video>
+
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <span datatype="content-author-name">Dollie Blair</>
+                    </div>
+                </a>
+
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <span datatype="content-author-name">Dollie Blair</>
+                    </div>
+                </a>
+
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <span datatype="content-author-name">Dollie Blair</>
+                    </div>
+                </a>
+
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <span datatype="content-author-name">Dollie Blair</>
+                    </div>
+                </a>
+
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -266,84 +358,10 @@
                     </div>
                 </a>
 
-                <a class="content__tab">
-                    <div class="video_small video-content">
-                        <video>
-                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
-                        </video>
-                        <div class="video-time">
-                            4:15
-                        </div>
-                    </div>
-                    <h4>A Brief History Of Creation</h4>
-                    <div class="content-info">
-                        <div class="content_data">
-                            <p datatype="content-views">80k views</p>
-                            <p datatype="contnet-publish-date">3 days ago</p>
-                        </div>
-                        <span datatype="content-author-name">Dollie Blair</>
-                    </div>
-                </a>
-
-                <a class="content__tab">
-                    <div class="video_small video-content">
-                        <video>
-                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
-                        </video>
-                        <div class="video-time">
-                            4:15
-                        </div>
-                    </div>
-                    <h4>A Brief History Of Creation</h4>
-                    <div class="content-info">
-                        <div class="content_data">
-                            <p datatype="content-views">80k views</p>
-                            <p datatype="contnet-publish-date">3 days ago</p>
-                        </div>
-                        <span datatype="content-author-name">Dollie Blair</>
-                    </div>
-                </a>
-
-                <a class="content__tab">
-                    <div class="video_small video-content">
-                        <video>
-                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
-                        </video>
-                        <div class="video-time">
-                            4:15
-                        </div>
-                    </div>
-                    <h4>A Brief History Of Creation</h4>
-                    <div class="content-info">
-                        <div class="content_data">
-                            <p datatype="content-views">80k views</p>
-                            <p datatype="contnet-publish-date">3 days ago</p>
-                        </div>
-                        <span datatype="content-author-name">Dollie Blair</>
-                    </div>
-                </a>
-
-                <a class="content__tab">
-                    <div class="video_small video-content">
-                        <video>
-                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
-                        </video>
-                        <div class="video-time">
-                            4:15
-                        </div>
-                    </div>
-                    <h4>A Brief History Of Creation</h4>
-                    <div class="content-info">
-                        <div class="content_data">
-                            <p datatype="content-views">80k views</p>
-                            <p datatype="contnet-publish-date">3 days ago</p>
-                        </div>
-                        <span datatype="content-author-name">Dollie Blair</>
-                    </div>
-                </a>
             </section>
         </section>
         <!-- Recommended content -->
+
         <section class="recommended content__section">
             <div class="recommended__title">
                 <h2>Recomended</h2>
@@ -381,6 +399,7 @@
                         <video>
                             <source src="assets/video/big_video.mp4" type="video/mp4">
                         </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -415,7 +434,9 @@
                 </a>
             </div>
         </section>
+        
         <!-- Recommended channels -->
+        
         <section class="recommended__channels content__section">
             <div class="channel__info">
                 <a href="#" class="channel__link">
@@ -443,6 +464,88 @@
                         <video>
                             <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
                         </video>
+
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <span datatype="content-author-name">Dollie Blair</>
+                    </div>
+                </a>
+
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <span datatype="content-author-name">Dollie Blair</>
+                    </div>
+                </a>
+
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <span datatype="content-author-name">Dollie Blair</>
+                    </div>
+                </a>
+
+                <a class="content__tab">
+                    <div class="video_small video-content">
+
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
+                        <div class="video-time">
+                            4:15
+                        </div>
+                    </div>
+                    <h4>A Brief History Of Creation</h4>
+                    <div class="content-info">
+                        <div class="content_data">
+                            <p datatype="content-views">80k views</p>
+                            <p datatype="contnet-publish-date">3 days ago</p>
+                        </div>
+                        <span datatype="content-author-name">Dollie Blair</>
+                    </div>
+                </a>
+
+                <a class="content__tab">
+                    <div class="video_small video-content">
+                        <video>
+                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
+                        </video>
+
                         <div class="video-time">
                             4:15
                         </div>
@@ -476,81 +579,6 @@
                     </div>
                 </a>
 
-                <a class="content__tab">
-                    <div class="video_small video-content">
-                        <video>
-                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
-                        </video>
-                        <div class="video-time">
-                            4:15
-                        </div>
-                    </div>
-                    <h4>A Brief History Of Creation</h4>
-                    <div class="content-info">
-                        <div class="content_data">
-                            <p datatype="content-views">80k views</p>
-                            <p datatype="contnet-publish-date">3 days ago</p>
-                        </div>
-                        <span datatype="content-author-name">Dollie Blair</>
-                    </div>
-                </a>
-
-                <a class="content__tab">
-                    <div class="video_small video-content">
-                        <video>
-                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
-                        </video>
-                        <div class="video-time">
-                            4:15
-                        </div>
-                    </div>
-                    <h4>A Brief History Of Creation</h4>
-                    <div class="content-info">
-                        <div class="content_data">
-                            <p datatype="content-views">80k views</p>
-                            <p datatype="contnet-publish-date">3 days ago</p>
-                        </div>
-                        <span datatype="content-author-name">Dollie Blair</>
-                    </div>
-                </a>
-
-                <a class="content__tab">
-                    <div class="video_small video-content">
-                        <video>
-                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
-                        </video>
-                        <div class="video-time">
-                            4:15
-                        </div>
-                    </div>
-                    <h4>A Brief History Of Creation</h4>
-                    <div class="content-info">
-                        <div class="content_data">
-                            <p datatype="content-views">80k views</p>
-                            <p datatype="contnet-publish-date">3 days ago</p>
-                        </div>
-                        <span datatype="content-author-name">Dollie Blair</>
-                    </div>
-                </a>
-
-                <a class="content__tab">
-                    <div class="video_small video-content">
-                        <video>
-                            <source src="assets/video/Rustica%20Refresh%20(12%20Sec%20Promo).mp4" type="video/mp4">
-                        </video>
-                        <div class="video-time">
-                            4:15
-                        </div>
-                    </div>
-                    <h4>A Brief History Of Creation</h4>
-                    <div class="content-info">
-                        <div class="content_data">
-                            <p datatype="content-views">80k views</p>
-                            <p datatype="contnet-publish-date">3 days ago</p>
-                        </div>
-                        <span datatype="content-author-name">Dollie Blair</>
-                    </div>
-                </a>
             </section>
         </section>
     </main>
