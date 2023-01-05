@@ -51,7 +51,15 @@ input::placeholder {
 }
 @media (max-width: 1050px) {
   .subscribed-author {
-    padding: 4rem 1.8rem 0;
+    padding: 4rem 0 0;
+  }
+  .subscribed-author.channel {
+    padding: 2.4rem 0 0;
+  }
+}
+@media (max-width: 838px) {
+  .subscribed-author {
+    padding: 3rem 1.8rem 0;
     margin: 0;
   }
   .subscribed-author.channel {
@@ -59,6 +67,9 @@ input::placeholder {
   }
 }
 @media (max-width: 576px) {
+  .subscribed-author {
+    padding-top: 4.5rem;
+  }
   .subscribed-author.channel {
     padding: 0 1.8rem 0;
   }
@@ -169,6 +180,11 @@ input::placeholder {
 @media (max-width: 838px) {
   .recommended__channels {
     padding: 0 1.8rem;
+  }
+}
+@media (max-width: 1050px) {
+  .recommended__channels .channel__info .video-content__navigation .video-content__subscription-stat {
+    display: none;
   }
 }
 @media (max-width: 390px) {

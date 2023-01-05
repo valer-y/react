@@ -299,8 +299,8 @@ header .container .header__user-block .header__user-block__user-profile img {
 }
 @media (max-width: 1050px) {
   .author-current-video__block .current-video__description {
-    margin: 0 auto;
-    padding: 2rem 2.1rem 1rem;
+    margin: 0;
+    padding: 2rem 0 1rem;
   }
 }
 .author-current-video__block .current-video__description h1 {
@@ -495,7 +495,7 @@ header .container .header__user-block .header__user-block__user-profile img {
 }
 @media (max-width: 1050px) {
   .channel__content .channel__author-info .author-content__block .author-content {
-    margin: 0 3rem 0 0;
+    margin: 0;
   }
 }
 @media (max-width: 576px) {
@@ -588,7 +588,15 @@ input::placeholder {
 }
 @media (max-width: 1050px) {
   .subscribed-author {
-    padding: 4rem 1.8rem 0;
+    padding: 4rem 0 0;
+  }
+  .subscribed-author.channel {
+    padding: 2.4rem 0 0;
+  }
+}
+@media (max-width: 838px) {
+  .subscribed-author {
+    padding: 3rem 1.8rem 0;
     margin: 0;
   }
   .subscribed-author.channel {
@@ -596,6 +604,9 @@ input::placeholder {
   }
 }
 @media (max-width: 576px) {
+  .subscribed-author {
+    padding-top: 4.5rem;
+  }
   .subscribed-author.channel {
     padding: 0 1.8rem 0;
   }
@@ -706,6 +717,11 @@ input::placeholder {
 @media (max-width: 838px) {
   .recommended__channels {
     padding: 0 1.8rem;
+  }
+}
+@media (max-width: 1050px) {
+  .recommended__channels .channel__info .video-content__navigation .video-content__subscription-stat {
+    display: none;
   }
 }
 @media (max-width: 390px) {

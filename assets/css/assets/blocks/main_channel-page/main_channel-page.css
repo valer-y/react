@@ -44,8 +44,8 @@
 }
 @media (max-width: 1050px) {
   .author-current-video__block .current-video__description {
-    margin: 0 auto;
-    padding: 2rem 2.1rem 1rem;
+    margin: 0;
+    padding: 2rem 0 1rem;
   }
 }
 .author-current-video__block .current-video__description h1 {
@@ -240,7 +240,7 @@
 }
 @media (max-width: 1050px) {
   .channel__content .channel__author-info .author-content__block .author-content {
-    margin: 0 3rem 0 0;
+    margin: 0;
   }
 }
 @media (max-width: 576px) {
