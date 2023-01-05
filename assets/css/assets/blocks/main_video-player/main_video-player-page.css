@@ -105,12 +105,6 @@
     border-radius: 50%;
   }
 }
-/* Error: Undefined variable.
- *    ,
- * 84 |       border-bottom: 1px solid $color_border-default;
- *    |                                ^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   assets/scss/assets/blocks/main_video-player/main_video-player-page.scss 84:32  root stylesheet */
 
 .video-player-block aside {
   display: none;
@@ -633,13 +627,25 @@ main.video-player-block .next-video__block .next-video .content__tab .content-in
   .mobile {
     margin: 0 1.6rem;
   }
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-  "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "";
-}}
+}
+
+.header-options {
+  display: none;
+}
+.header-options div {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #000000;
+}
+.header-options div:nth-child(2) {
+  margin: 0.2rem 0;
+}
+@media (max-width: 390px) {
+  .header-options {
+    display: block;
+    margin: 0 0 0 3rem;
+  }
+}
+
+/*# sourceMappingURL=main_video-player-page.css.map */
