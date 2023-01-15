@@ -360,7 +360,7 @@
 
             <!-- Subscribed author video section -->
 
-            <section class="subscribed-author__content">
+            <section class="subscribed-author__content horizontal-scroll">
 
                 <a class="content__tab">
                     <div class="video_small video-content">
