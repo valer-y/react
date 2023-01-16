@@ -22,6 +22,18 @@
   display: block;
 }
 
+.recommended,
+.recommended__channels,
+.subscribed-author {
+  .horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
 @import "channel_info";
 @import "content_tab";
 @import "video-content_navigation";
